@@ -3,7 +3,7 @@ import fs from "fs";
 
 const TARGET_URL =
   process.env.TARGET_URL ||
-  "https://www.fancode.com/football/tour/laliga-2025-26-18801700/matches/ca-osasuna-vs-athletic-club-131000/live-match-info";
+  "https://www.fancode.com/football/tour/laliga-2025-26-18801700/matches/elche-cf-vs-villarreal-cf-131009/live-match-info";
 
 const FOUND = new Set();
 
