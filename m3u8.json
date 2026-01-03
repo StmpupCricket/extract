@@ -1,6 +1,11 @@
 {
-  "source": "https://youtu.be/RbxVioxb9vI?si=5PADRnUJNuQBNp_s",
-  "total": 0,
-  "m3u8": [],
-  "timestamp": "2026-01-03T15:00:57.790Z"
+  "source": "https://crickettv.site/highlights/player2?id=6387186328112&title=Sydney%20Thunder%20v%20Hobart%20Hurricanes%20%7C%20BBL%7C15",
+  "total": 4,
+  "m3u8": [
+    "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/807051129001/84c3f369-696f-4e46-b85a-8e8e9725a75e/10s/master.m3u8",
+    "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/807051129001/84c3f369-696f-4e46-b85a-8e8e9725a75e/624c7e01-cc56-4d13-88f5-695b1e4bccb7/10s/rendition.m3u8",
+    "https://metrics.brightcove.com/v2/tracker",
+    "https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/807051129001/84c3f369-696f-4e46-b85a-8e8e9725a75e/3944ba06-8b87-41c5-b103-e09e80003334/10s/rendition.m3u8"
+  ],
+  "timestamp": "2026-01-03T15:11:49.439Z"
 }
