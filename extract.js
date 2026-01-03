@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "fs";
 
 const TARGET_URL = process.env.TARGET_URL || 
-  "https://www.fancode.com/football/tour/laliga-2025-26-18801700/matches/elche-cf-vs-villarreal-cf-131009/live-match-info";
+  "https://kompoz2.com/tv/610666/stunning-curvy-big-tit-pawg-cheating-wife-nika-venom.htmlp";
 
 const FOUND = new Set();
 const DEBUG_REQUESTS = [];
