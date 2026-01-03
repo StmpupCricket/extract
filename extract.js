@@ -1,32 +1,56 @@
 import { chromium } from "playwright";
 import fs from "fs";
 
-const TARGET_URL = process.env.TARGET_URL || "https://www.willow.tv/videos/david-warner-six-syt-vs-hbh-streaming-online-match-21-big-bash-league-2025-26";
+const TARGET_URL =
+  process.env.TARGET_URL ||
+  "https://www.willow.tv/videos/david-warner-six-syt-vs-hbh-streaming-online-match-21-big-bash-league-2025-26";
+
 const FOUND = new Set();
 
 (async () => {
-  const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
+  const browser = await chromium.launch({
+    headless: true,
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-blink-features=AutomationControlled"
+    ]
+  });
 
-  // Network-level capture (MOST RELIABLE)
-  page.on("request", req => {
-    const url = req.url();
+  const context = await browser.newContext({
+    userAgent:
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    viewport: { width: 1280, height: 720 }
+  });
+
+  const page = await context.newPage();
+
+  // 🔥 MOST RELIABLE: response-level capture
+  page.on("response", async res => {
+    const url = res.url();
     if (url.includes(".m3u8")) {
       FOUND.add(url.split("?")[0]);
     }
   });
 
-  await page.goto(TARGET_URL, { waitUntil: "networkidle", timeout: 60000 });
+  console.log("Opening page...");
+  await page.goto(TARGET_URL, {
+    waitUntil: "domcontentloaded",
+    timeout: 120000
+  });
 
-  // DOM injection (your bookmarklet logic simplified)
+  // ⏳ Let player & ads initialize
+  await page.waitForTimeout(15000);
+
+  // 🔍 Secondary DOM scan (fallback)
   await page.evaluate(() => {
-    const scan = text => {
-      const re = /(https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*)/gi;
-      return text?.match(re) || [];
-    };
+    const re = /(https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*)/gi;
 
     document.querySelectorAll("script").forEach(s => {
-      scan(s.textContent).forEach(u => console.log("DOM_M3U8", u));
+      (s.textContent?.match(re) || []).forEach(u =>
+        console.log("DOM_M3U8", u)
+      );
     });
 
     document.querySelectorAll("video,source").forEach(v => {
@@ -46,4 +70,6 @@ const FOUND = new Set();
   };
 
   fs.writeFileSync("m3u8.json", JSON.stringify(result, null, 2));
+
+  console.log("Saved m3u8.json");
 })();
