@@ -1,7 +1,7 @@
 import { chromium } from "playwright";
 import fs from "fs";
 
-const TARGET_URL = process.env.TARGET_URL || "https://crickettv.site/highlights/player2?id=6387186328112&title=Sydney%20Thunder%20v%20Hobart%20Hurricanes%20%7C%20BBL%7C15";
+const TARGET_URL = process.env.TARGET_URL || "https://www.willow.tv/videos/david-warner-six-syt-vs-hbh-streaming-online-match-21-big-bash-league-2025-26";
 const FOUND = new Set();
 
 (async () => {
