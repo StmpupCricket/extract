@@ -1,6 +1,10 @@
 {
   "source": "https://www.willow.tv/videos/david-warner-six-syt-vs-hbh-streaming-online-match-21-big-bash-league-2025-26",
-  "total": 0,
-  "m3u8": [],
-  "timestamp": "2026-01-03T17:07:02.573Z"
+  "total": 3,
+  "m3u8": [
+    "https://willowtv-tavod160w.pc.cdn.bitgravity.com/tavod160wop/warchives_tr/Big_Bash_League_2025_26/12629/Highlights/12629_David_Warner_Six/master.m3u8",
+    "https://willowtv-tavod160w.pc.cdn.bitgravity.com/tavod160wop/warchives_tr/Big_Bash_League_2025_26/12629/Highlights/12629_David_Warner_Six/5000k/HLS/12629_David_Warner_Six_5000k.m3u8",
+    "https://willowtv-tavod160w.pc.cdn.bitgravity.com/tavod160wop/warchives_tr/Big_Bash_League_2025_26/12629/Highlights/12629_David_Warner_Six/3000k/HLS/12629_David_Warner_Six_3000k.m3u8"
+  ],
+  "timestamp": "2026-01-03T17:12:12.250Z"
 }
