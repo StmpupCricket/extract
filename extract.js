@@ -1,7 +1,7 @@
 import { chromium } from "playwright";
 import fs from "fs";
 
-const TARGET_URL = process.env.TARGET_URL || "https://example.com";
+const TARGET_URL = process.env.TARGET_URL || "http://www.cricbuzz.com/cricket-videos/152829/rohit-kohli-sole-reasons-why-odi-cricket-is-watched-joy-bhattacharjya";
 const FOUND = new Set();
 
 (async () => {
