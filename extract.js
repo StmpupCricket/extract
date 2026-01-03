@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "fs";
 
 const TARGET_URL = process.env.TARGET_URL || 
-  "https://kompoz2.com/tv/610666/stunning-curvy-big-tit-pawg-cheating-wife-nika-venom.htmlp";
+  "https://tdxflix.now/santa-e02-2025-malayalam-uncut-short-film-fridayseries/";
 
 const FOUND = new Set();
 const DEBUG_REQUESTS = [];
