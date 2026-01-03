@@ -9,14 +9,17 @@ const DEBUG_REQUESTS = [];
 
 (async () => {
   const browser = await chromium.launch({ 
-    headless: false, // Try visible mode first for debugging
+    headless: true, // Must be true for CI/GitHub Actions
     args: [
       "--no-sandbox",
       "--disable-setuid-sandbox",
       "--disable-dev-shm-usage",
       "--disable-blink-features=AutomationControlled",
-      "--disable-web-security", // May help with CORS
-      "--disable-features=IsolateOrigins,site-per-process"
+      "--disable-web-security",
+      "--disable-features=IsolateOrigins,site-per-process",
+      "--disable-gpu",
+      "--single-process", // May help in constrained environments
+      "--no-zygote"
     ]
   });
 
