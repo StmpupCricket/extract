@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "fs";
 
 const TARGET_URL = process.env.TARGET_URL || 
-  "https://hitmaal.com/innocent-episode-1/";
+  "https://www.hotstar.com/in/sports/cricket/sydney-sixers-vs-brisbane-heat/1540058932/video/live/watch";
 
 const FOUND = new Set();
 const DEBUG_REQUESTS = [];
