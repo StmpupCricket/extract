@@ -16,7 +16,7 @@ import { chromium } from "playwright";
 import fs from "fs";
 
 const TARGET_URL =
-  "https://www.hotstar.com/in"; // change later to content page
+  "https://www.icc-cricket.com/videos/ricky-ponting-previews-the-ashes-and-reacts-to-south-africa-s-test-win-over-india-the-icc-review"; // change later to content page
 
 const SESSION_FILE = "hotstar-session.json";
 const FOUND = new Set();
