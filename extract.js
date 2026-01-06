@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "fs";
 
 const TARGET_URL =
-  "https://www.hotstar.com/in/sports/cricket/sydney-sixers-vs-brisbane-heat/1540058932/video/live/watch";
+  "https://www.icc-cricket.com/videos/ricky-ponting-previews-the-ashes-and-reacts-to-south-africa-s-test-win-over-india-the-icc-review";
 
 const SESSION_FILE = "hotstar-session.json";
 const FOUND = new Set();
