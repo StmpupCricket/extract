@@ -4,72 +4,100 @@ import fs from "fs";
 const SOURCE_JSON =
   "https://raw.githubusercontent.com/cricstreamz745/Hit-Maal/refs/heads/main/hitmall.json";
 
-const OUTPUT_FILE = "m3u8.json";
+const OUTPUT = "m3u8.json";
+const MAX_WORKERS = 8;
+const WAIT_TIME = 3500;
+
+// Load existing progress
+let DONE = {};
+if (fs.existsSync(OUTPUT)) {
+  DONE = JSON.parse(fs.readFileSync(OUTPUT)).map || {};
+}
 
 (async () => {
-  const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
-
   const data = await (await fetch(SOURCE_JSON)).json();
-  const episodes = data.episodes;
+  const episodes = data.episodes.filter(e => !DONE[e.link]);
 
-  const results = [];
+  console.log(`🎯 Pending: ${episodes.length}`);
 
-  for (const ep of episodes.slice(0, 50)) {
-    console.log("🔎 Opening:", ep.title);
+  const browser = await chromium.launch({ headless: true });
 
-    try {
-      await page.goto(ep.link, { timeout: 60000 });
-      await page.waitForTimeout(5000);
+  const context = await browser.newContext();
 
-      const stream = await page.evaluate(() => {
-        const scripts = [...document.scripts].map(s => s.innerHTML).join("\n");
+  // 🚫 Block heavy assets
+  await context.route("**/*", route => {
+    const type = route.request().resourceType();
+    if (["image", "font", "stylesheet"].includes(type)) {
+      route.abort();
+    } else {
+      route.continue();
+    }
+  });
 
-        const m3u8 =
-          scripts.match(/https?:\/\/[^"' ]+\.m3u8[^"' ]*/)?.[0] || null;
+  let index = 0;
+  const results = DONE;
 
-        const mp4 =
-          scripts.match(/https?:\/\/[^"' ]+\.mp4[^"' ]*/)?.[0] || null;
+  async function worker(id) {
+    const page = await context.newPage();
 
-        const videoTag =
-          document.querySelector("video")?.src || null;
+    while (index < episodes.length) {
+      const ep = episodes[index++];
+      console.log(`👷 Worker ${id} → ${ep.title}`);
 
-        return m3u8 || mp4 || videoTag;
-      });
+      try {
+        await page.goto(ep.link, { timeout: 30000 });
+        await page.waitForTimeout(WAIT_TIME);
 
-      if (stream) {
-        results.push({
-          title: ep.title,
-          upload_time: ep.upload_time,
-          duration: ep.duration,
-          page_url: ep.link,
-          stream_type: stream.includes(".m3u8") ? "m3u8" : "mp4",
-          stream_url: stream
+        const stream = await page.evaluate(() => {
+          const text = document.documentElement.innerHTML;
+          return (
+            text.match(/https?:\/\/[^"' ]+\.m3u8[^"' ]*/)?.[0] ||
+            text.match(/https?:\/\/[^"' ]+\.mp4[^"' ]*/)?.[0] ||
+            document.querySelector("video")?.src ||
+            null
+          );
         });
 
-        console.log("✅ Found:", stream);
-      } else {
-        console.log("❌ No stream found");
+        if (stream) {
+          results[ep.link] = {
+            title: ep.title,
+            upload_time: ep.upload_time,
+            duration: ep.duration,
+            page_url: ep.link,
+            stream_type: stream.includes(".m3u8") ? "m3u8" : "mp4",
+            stream_url: stream
+          };
+
+          fs.writeFileSync(
+            OUTPUT,
+            JSON.stringify(
+              {
+                updated: new Date().toISOString(),
+                total: Object.keys(results).length,
+                map: results
+              },
+              null,
+              2
+            )
+          );
+
+          console.log(`✅ Found (${id})`);
+        } else {
+          console.log(`❌ No stream`);
+        }
+      } catch (e) {
+        console.log(`⚠️ Error on ${ep.title}`);
       }
-    } catch (err) {
-      console.log("⚠️ Error:", ep.title);
     }
+
+    await page.close();
   }
 
-  await browser.close();
-
-  fs.writeFileSync(
-    OUTPUT_FILE,
-    JSON.stringify(
-      {
-        created_at: new Date().toISOString(),
-        total: results.length,
-        videos: results
-      },
-      null,
-      2
-    )
+  // 🔥 Run workers
+  await Promise.all(
+    Array.from({ length: MAX_WORKERS }, (_, i) => worker(i + 1))
   );
 
-  console.log(`🎉 Done → ${OUTPUT_FILE}`);
+  await browser.close();
+  console.log("🎉 ALL DONE");
 })();
