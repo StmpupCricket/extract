@@ -5,26 +5,24 @@ const SOURCE_JSON =
   "https://raw.githubusercontent.com/cricstreamz745/Hit-Maal/refs/heads/main/hitmall.json";
 
 const OUTPUT = "m3u8.json";
+
+/* 🔥 SPEED CONFIG */
 const MAX_WORKERS = 8;
 const WAIT_TIME = 3500;
-
-// Load existing progress
-let DONE = {};
-if (fs.existsSync(OUTPUT)) {
-  DONE = JSON.parse(fs.readFileSync(OUTPUT)).map || {};
-}
+const LIMIT = 200; // 👈 ONLY FETCH 200 VIDEOS
 
 (async () => {
   const data = await (await fetch(SOURCE_JSON)).json();
-  const episodes = data.episodes.filter(e => !DONE[e.link]);
 
-  console.log(`🎯 Pending: ${episodes.length}`);
+  // ✅ TAKE ONLY FIRST 200
+  const episodes = data.episodes.slice(0, LIMIT);
+
+  console.log(`🎯 Fetching only ${episodes.length} videos`);
 
   const browser = await chromium.launch({ headless: true });
-
   const context = await browser.newContext();
 
-  // 🚫 Block heavy assets
+  // 🚫 Block heavy resources
   await context.route("**/*", route => {
     const type = route.request().resourceType();
     if (["image", "font", "stylesheet"].includes(type)) {
@@ -35,7 +33,7 @@ if (fs.existsSync(OUTPUT)) {
   });
 
   let index = 0;
-  const results = DONE;
+  const results = [];
 
   async function worker(id) {
     const page = await context.newPage();
@@ -49,44 +47,31 @@ if (fs.existsSync(OUTPUT)) {
         await page.waitForTimeout(WAIT_TIME);
 
         const stream = await page.evaluate(() => {
-          const text = document.documentElement.innerHTML;
+          const html = document.documentElement.innerHTML;
           return (
-            text.match(/https?:\/\/[^"' ]+\.m3u8[^"' ]*/)?.[0] ||
-            text.match(/https?:\/\/[^"' ]+\.mp4[^"' ]*/)?.[0] ||
+            html.match(/https?:\/\/[^"' ]+\.m3u8[^"' ]*/)?.[0] ||
+            html.match(/https?:\/\/[^"' ]+\.mp4[^"' ]*/)?.[0] ||
             document.querySelector("video")?.src ||
             null
           );
         });
 
         if (stream) {
-          results[ep.link] = {
+          results.push({
             title: ep.title,
             upload_time: ep.upload_time,
             duration: ep.duration,
             page_url: ep.link,
             stream_type: stream.includes(".m3u8") ? "m3u8" : "mp4",
             stream_url: stream
-          };
-
-          fs.writeFileSync(
-            OUTPUT,
-            JSON.stringify(
-              {
-                updated: new Date().toISOString(),
-                total: Object.keys(results).length,
-                map: results
-              },
-              null,
-              2
-            )
-          );
+          });
 
           console.log(`✅ Found (${id})`);
         } else {
           console.log(`❌ No stream`);
         }
       } catch (e) {
-        console.log(`⚠️ Error on ${ep.title}`);
+        console.log(`⚠️ Error → ${ep.title}`);
       }
     }
 
@@ -99,5 +84,20 @@ if (fs.existsSync(OUTPUT)) {
   );
 
   await browser.close();
-  console.log("🎉 ALL DONE");
+
+  // 💾 Save output
+  fs.writeFileSync(
+    OUTPUT,
+    JSON.stringify(
+      {
+        created_at: new Date().toISOString(),
+        total: results.length,
+        videos: results
+      },
+      null,
+      2
+    )
+  );
+
+  console.log(`🎉 DONE → ${results.length} videos saved`);
 })();
