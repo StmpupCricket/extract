@@ -1,160 +1,75 @@
-/**
- * OPTION 1 – MANUAL LOGIN LOCALLY → HEADLESS CAPTURE ANYWHERE
- * ----------------------------------------------------------
- * 1) FIRST RUN (LOCAL PC / TERMUX WITH GUI):
- *    - Browser opens
- *    - Login manually (OTP)
- *    - hotstar-session.json is saved
- *
- * 2) NEXT RUNS (LOCAL / CLOUD / GITHUB ACTIONS):
- *    - Headless
- *    - Session reused
- *    - No GUI required
- */
-
 import { chromium } from "playwright";
 import fs from "fs";
 
-const TARGET_URL =
-  "https://www.icc-cricket.com/videos/ricky-ponting-previews-the-ashes-and-reacts-to-south-africa-s-test-win-over-india-the-icc-review"; // change later to content page
+const SOURCE_JSON =
+  "https://raw.githubusercontent.com/cricstreamz745/Hit-Maal/refs/heads/main/hitmall.json";
 
-const SESSION_FILE = "hotstar-session.json";
-const FOUND = new Set();
-const DEBUG = [];
+const OUTPUT_FILE = "m3u8.json";
 
 (async () => {
-  // ─────────────────────────────
-  // 1️⃣ FIRST RUN → MANUAL LOGIN
-  // ─────────────────────────────
-  if (!fs.existsSync(SESSION_FILE)) {
-    console.log("🔐 No session found");
-    console.log("👉 OPENING BROWSER FOR MANUAL LOGIN");
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
 
-    const browser = await chromium.launch({
-      headless: false,
-      args: [
-        "--disable-blink-features=AutomationControlled"
-      ]
-    });
+  const data = await (await fetch(SOURCE_JSON)).json();
+  const episodes = data.episodes;
 
-    const context = await browser.newContext({
-      userAgent:
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
-      locale: "en-IN",
-      viewport: { width: 1280, height: 800 }
-    });
+  const results = [];
 
-    const page = await context.newPage();
-    await page.goto("https://www.hotstar.com/in", {
-      waitUntil: "domcontentloaded",
-      timeout: 60000
-    });
+  for (const ep of episodes.slice(0, 50)) {
+    console.log("🔎 Opening:", ep.title);
 
-    console.log("📱 LOGIN MANUALLY (OTP)");
-    console.log("⏳ WAITING 120 SECONDS...");
+    try {
+      await page.goto(ep.link, { timeout: 60000 });
+      await page.waitForTimeout(5000);
 
-    await page.waitForTimeout(120000);
+      const stream = await page.evaluate(() => {
+        const scripts = [...document.scripts].map(s => s.innerHTML).join("\n");
 
-    await context.storageState({ path: SESSION_FILE });
-    console.log("✅ SESSION SAVED:", SESSION_FILE);
+        const m3u8 =
+          scripts.match(/https?:\/\/[^"' ]+\.m3u8[^"' ]*/)?.[0] || null;
 
-    await browser.close();
-    console.log("🔁 RE-RUN SCRIPT (SESSION READY)");
-    process.exit(0);
-  }
+        const mp4 =
+          scripts.match(/https?:\/\/[^"' ]+\.mp4[^"' ]*/)?.[0] || null;
 
-  // ─────────────────────────────
-  // 2️⃣ HEADLESS RUN → CAPTURE
-  // ─────────────────────────────
-  console.log("🚀 SESSION FOUND – RUNNING HEADLESS");
+        const videoTag =
+          document.querySelector("video")?.src || null;
 
-  const browser = await chromium.launch({
-    headless: true,
-    args: [
-      "--no-sandbox",
-      "--disable-setuid-sandbox",
-      "--disable-dev-shm-usage",
-      "--disable-gpu"
-    ]
-  });
-
-  const context = await browser.newContext({
-    storageState: SESSION_FILE,
-    userAgent:
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
-    locale: "en-IN",
-    viewport: { width: 1920, height: 1080 }
-  });
-
-  const page = await context.newPage();
-
-  // ───────── Network interception ─────────
-  page.on("request", req => {
-    const url = req.url();
-    if (
-      url.includes(".m3u8") ||
-      url.includes(".mpd") ||
-      url.includes("manifest") ||
-      url.includes("playlist")
-    ) {
-      FOUND.add(url.split("?")[0]);
-      console.log("🔍 REQUEST:", url);
-    }
-  });
-
-  page.on("response", async res => {
-    const url = res.url();
-    const type = res.request().resourceType();
-
-    if (type === "media" || url.includes(".m3u8") || url.includes(".mpd")) {
-      DEBUG.push({
-        url,
-        type,
-        status: res.status()
+        return m3u8 || mp4 || videoTag;
       });
-      console.log(`📡 RESPONSE [${type}]:`, url);
+
+      if (stream) {
+        results.push({
+          title: ep.title,
+          upload_time: ep.upload_time,
+          duration: ep.duration,
+          page_url: ep.link,
+          stream_type: stream.includes(".m3u8") ? "m3u8" : "mp4",
+          stream_url: stream
+        });
+
+        console.log("✅ Found:", stream);
+      } else {
+        console.log("❌ No stream found");
+      }
+    } catch (err) {
+      console.log("⚠️ Error:", ep.title);
     }
-  });
-
-  console.log("🌐 OPENING TARGET PAGE");
-  await page.goto(TARGET_URL, {
-    waitUntil: "networkidle",
-    timeout: 60000
-  });
-
-  // Wait for player init
-  await page.waitForTimeout(15000);
-
-  // Try clicking Play (safe)
-  try {
-    const play = page.locator(
-      'button[aria-label*="Play"], button[class*="play"]'
-    );
-    if (await play.first().isVisible({ timeout: 5000 })) {
-      console.log("▶️ CLICKING PLAY");
-      await play.first().click();
-    }
-  } catch {}
-
-  // Extra wait for late streams
-  await page.waitForTimeout(20000);
+  }
 
   await browser.close();
 
-  // ───────── Save result ─────────
-  const result = {
-    source: TARGET_URL,
-    total: FOUND.size,
-    streams: [...FOUND],
-    debugSamples: DEBUG.slice(0, 10),
-    timestamp: new Date().toISOString()
-  };
+  fs.writeFileSync(
+    OUTPUT_FILE,
+    JSON.stringify(
+      {
+        created_at: new Date().toISOString(),
+        total: results.length,
+        videos: results
+      },
+      null,
+      2
+    )
+  );
 
-  fs.writeFileSync("m3u8.json", JSON.stringify(result, null, 2));
-
-  console.log(`✅ DONE – FOUND ${FOUND.size} STREAM URLS`);
-
-  if (FOUND.size === 0) {
-    console.log("❌ DRM-PROTECTED (EXPECTED FOR HOTSTAR)");
-  }
+  console.log(`🎉 Done → ${OUTPUT_FILE}`);
 })();
