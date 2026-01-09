@@ -1,68 +1,10 @@
 {
-  "source": "https://youtube.jitendra-unatti.workers.dev/wanda.m3u8?id=Nq2wYlWFucg",
-  "total": 6,
-  "m3u8": [
-    "https://youtube.jitendra-unatti.workers.dev/wanda.m3u8",
-    "https://video.twimg.com/amplify_video/1797150287292981248/pl/-GLBpWJuiNKBrdvp.m3u8",
-    "https://video.twimg.com/amplify_video/1797150287292981248/pl/avc1/1280x720/YIlqgdByg28kfQwH.m3u8",
-    "https://video.twimg.com/amplify_video/1797150287292981248/pl/mp4a/128000/ygCM1EiM0kh2GKQ6.m3u8",
-    "https://video.twimg.com/amplify_video/1797150287292981248/pl/avc1/480x270/ttu6u6-MCMaqV_wa.m3u8",
-    "https://video.twimg.com/amplify_video/1797150287292981248/pl/mp4a/32000/3XwTmqad4NWPeVdx.m3u8"
-  ],
+  "source": "https://www.fancode.com/football/tour/laliga-2025-26-18801700/matches/elche-cf-vs-villarreal-cf-131009/live-match-info",
+  "total": 0,
+  "m3u8": [],
   "debug": {
-    "mediaRequests": 19,
-    "allRequests": [
-      {
-        "url": "https://youtube.jitendra-unatti.workers.dev/wanda.m3u8?id=Nq2wYlWFucg",
-        "type": "document",
-        "status": 302
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/pl/-GLBpWJuiNKBrdvp.m3u8",
-        "type": "document",
-        "status": 200
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/pl/-GLBpWJuiNKBrdvp.m3u8",
-        "type": "media",
-        "status": 206
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/pl/-GLBpWJuiNKBrdvp.m3u8",
-        "type": "media",
-        "status": 206
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/pl/avc1/1280x720/YIlqgdByg28kfQwH.m3u8",
-        "type": "media",
-        "status": 206
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/pl/mp4a/128000/ygCM1EiM0kh2GKQ6.m3u8",
-        "type": "media",
-        "status": 206
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/vid/avc1/0/0/1280x720/MKzYEcNvuXCgI5tP.mp4",
-        "type": "media",
-        "status": 206
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/vid/avc1/0/3000/1280x720/nE5Zv-8AYynPNOXi.m4s",
-        "type": "media",
-        "status": 206
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/aud/mp4a/0/0/128000/a3_n8vOSRlIWeTTL.mp4",
-        "type": "media",
-        "status": 206
-      },
-      {
-        "url": "https://video.twimg.com/amplify_video/1797150287292981248/aud/mp4a/0/3000/128000/MwBoXadHMXw-4jVq.m4s",
-        "type": "media",
-        "status": 206
-      }
-    ]
+    "mediaRequests": 0,
+    "allRequests": []
   },
-  "timestamp": "2026-01-09T06:19:53.113Z"
+  "timestamp": "2026-01-09T06:22:19.653Z"
 }
