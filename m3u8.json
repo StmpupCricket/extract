@@ -13,6 +13,11 @@
         "status": 206
       },
       {
+        "url": "https://www.youtube.com/s/search/audio/open.mp3",
+        "type": "media",
+        "status": 206
+      },
+      {
         "url": "https://www.youtube.com/s/search/audio/no_input.mp3",
         "type": "media",
         "status": 206
@@ -23,16 +28,11 @@
         "status": 206
       },
       {
-        "url": "https://www.youtube.com/s/search/audio/open.mp3",
-        "type": "media",
-        "status": 206
-      },
-      {
         "url": "https://fonts.gstatic.com/s/i/youtube_outline_experimental/playlist/v5/24px.svg",
         "type": "fetch",
         "status": 200
       }
     ]
   },
-  "timestamp": "2026-01-09T19:15:53.870Z"
+  "timestamp": "2026-01-09T19:32:23.992Z"
 }
