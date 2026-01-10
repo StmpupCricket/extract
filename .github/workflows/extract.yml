@@ -1,4 +1,4 @@
-name: Extract M3U8
+name: Extract Streaming Manifests
 
 on:
   workflow_dispatch:
@@ -21,20 +21,81 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install deps
+      - name: Install dependencies
         run: |
-          npm install
+          npm install playwright
           npx playwright install chromium
+          npx playwright install-deps
 
-      - name: Run extractor
+      - name: Run stream extractor
         env:
           TARGET_URL: ${{ github.event.inputs.url }}
         run: node extract.js
 
-      - name: Commit result
+      - name: Check for extracted manifests
         run: |
-          git config user.name "m3u8-bot"
+          if [ -f "stream-manifests.json" ]; then
+            echo "✅ Manifests file exists"
+            echo "HLS (M3U8) URLs found: $(jq '.totals.m3u8' stream-manifests.json)"
+            echo "DASH (MPD) URLs found: $(jq '.totals.mpd' stream-manifests.json)"
+          else
+            echo "❌ No manifests file created"
+            exit 1
+          fi
+
+      - name: Commit results
+        run: |
+          git config user.name "stream-extractor-bot"
           git config user.email "bot@github.com"
-          git add m3u8.json
-          git commit -m "Update m3u8" || echo "No changes"
-          git push
+          
+          # Check if there are any changes
+          if git status --porcelain | grep -q "stream-manifests.json"; then
+            git add stream-manifests.json
+            git commit -m "Update streaming manifests $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+            echo "✅ Changes committed and pushed"
+          else
+            echo "ℹ️ No changes to commit"
+          fi
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "# Streaming Manifest Extraction Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "stream-manifests.json" ]; then
+            echo "## 📊 Extraction Summary" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- **Source URL:** $(jq -r '.source' stream-manifests.json)" >> $GITHUB_STEP_SUMMARY
+            echo "- **HLS (M3U8) URLs found:** $(jq '.totals.m3u8' stream-manifests.json)" >> $GITHUB_STEP_SUMMARY
+            echo "- **DASH (MPD) URLs found:** $(jq '.totals.mpd' stream-manifests.json)" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total URLs:** $(jq '.totals.total' stream-manifests.json)" >> $GITHUB_STEP_SUMMARY
+            echo "- **Extraction time:** $(jq -r '.timestamp' stream-manifests.json)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            # Show HLS URLs if found
+            HLS_COUNT=$(jq '.totals.m3u8' stream-manifests.json)
+            if [ "$HLS_COUNT" -gt 0 ]; then
+              echo "### 🎬 HLS (M3U8) URLs" >> $GITHUB_STEP_SUMMARY
+              jq -r '.hls.urls[]' stream-manifests.json | while read url; do
+                echo "- \`$url\`" >> $GITHUB_STEP_SUMMARY
+              done
+              echo "" >> $GITHUB_STEP_SUMMARY
+            fi
+            
+            # Show DASH URLs if found
+            DASH_COUNT=$(jq '.totals.mpd' stream-manifests.json)
+            if [ "$DASH_COUNT" -gt 0 ]; then
+              echo "### 📦 DASH (MPD) URLs" >> $GITHUB_STEP_SUMMARY
+              jq -r '.dash.urls[]' stream-manifests.json | while read url; do
+                echo "- \`$url\`" >> $GITHUB_STEP_SUMMARY
+              done
+              echo "" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "## ❌ Extraction Failed" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "No streaming manifests file was created." >> $GITHUB_STEP_SUMMARY
+            echo "Check the logs for possible errors." >> $GITHUB_STEP_SUMMARY
+          fi
