@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "fs";
 
 const TARGET_URL = process.env.TARGET_URL || 
-  "https://youtu.be/9ktCbzWQCP4?si=gxoC0ZV-BX97sBWx";
+  "https://crickettv.site/willow";
 
 const FOUND_M3U8 = new Set();
 const FOUND_MPD = new Set();
