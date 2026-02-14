@@ -25,10 +25,10 @@
   "dash": {
     "count": 4,
     "urls": [
-      "https://infinity-c37.youboranqs01.com/init",
+      "https://infinity-c33.youboranqs01.com/init",
       "https://vod-d-01-icc-we.akamaized.net/Content/DASH/VOD/10027/15200/a0088ba0-89ff-4085-a568-79eb32622e11/bc57f716-2de1-5767-3056-8fa378c33d7c/manifest.mpd",
-      "https://vod-d-01-icc-we.akamaized.net/Content/DASH/VOD/10027/15200/a0088ba0-89ff-4085-a568-79eb32622e11/bc57f716-2de1-5767-3056-8fa378c33d7c/hdntl=exp=1771131668~acl=%2fContent%2fDASH%2fVOD%2f10027%2f15200%2fa0088ba0-89ff-4085-a568-79eb32622e11%2fbc57f716-2de1-5767-3056-8fa378c33d7c%2f*~data=hdntl~hmac=7501973d4ab0e79aad73ca63bca1faed31f0eb8897e9c82987ca75c72d0f8fa7/manifest.mpd",
-      "https://infinity-c37.youboranqs01.com/start"
+      "https://vod-d-01-icc-we.akamaized.net/Content/DASH/VOD/10027/15200/a0088ba0-89ff-4085-a568-79eb32622e11/bc57f716-2de1-5767-3056-8fa378c33d7c/hdntl=exp=1771133553~acl=%2fContent%2fDASH%2fVOD%2f10027%2f15200%2fa0088ba0-89ff-4085-a568-79eb32622e11%2fbc57f716-2de1-5767-3056-8fa378c33d7c%2f*~data=hdntl~hmac=006b9160bc37d3ce389278385a00a2f76f5c22801197eb84f74d689cb86792b1/manifest.mpd",
+      "https://infinity-c33.youboranqs01.com/start"
     ]
   },
   "debug": {
@@ -40,7 +40,17 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/app/layout-b3e56292b46ddaa1.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/webpack-d8a829c437392314.js",
+        "type": "script",
+        "status": 200
+      },
+      {
+        "url": "https://www.icc-cricket.com/_next/static/chunks/main-app-050fd630f446e664.js",
+        "type": "script",
+        "status": 200
+      },
+      {
+        "url": "https://www.icc-cricket.com/_next/static/chunks/754-5a4cbc39020ec999.js",
         "type": "script",
         "status": 200
       },
@@ -55,7 +65,7 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/754-5a4cbc39020ec999.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/app/layout-b3e56292b46ddaa1.js",
         "type": "script",
         "status": 200
       },
@@ -70,21 +80,6 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/main-app-050fd630f446e664.js",
-        "type": "script",
-        "status": 200
-      },
-      {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/webpack-d8a829c437392314.js",
-        "type": "script",
-        "status": 200
-      },
-      {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/61f8617b-64f9fb3059c2987a.js",
-        "type": "script",
-        "status": 200
-      },
-      {
         "url": "https://www.icc-cricket.com/_next/static/chunks/e37a0b60-8a534e0eeb30b5db.js",
         "type": "script",
         "status": 200
@@ -95,12 +90,17 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/62-e3b6ee92789d4563.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/aaea2bcf-b201cbd1b83ebecc.js",
         "type": "script",
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/aaea2bcf-b201cbd1b83ebecc.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/61f8617b-64f9fb3059c2987a.js",
+        "type": "script",
+        "status": 200
+      },
+      {
+        "url": "https://www.icc-cricket.com/_next/static/chunks/62-e3b6ee92789d4563.js",
         "type": "script",
         "status": 200
       },
@@ -115,7 +115,7 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/414-721e683494396dae.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/a22dc6a2-7e413b6401629223.js",
         "type": "script",
         "status": 200
       },
@@ -125,7 +125,7 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/a22dc6a2-7e413b6401629223.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/414-721e683494396dae.js",
         "type": "script",
         "status": 200
       },
@@ -136,5 +136,5 @@
       }
     ]
   },
-  "timestamp": "2026-02-14T21:02:25.010Z"
+  "timestamp": "2026-02-14T21:33:51.022Z"
 }
