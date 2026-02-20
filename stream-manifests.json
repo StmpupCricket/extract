@@ -25,10 +25,10 @@
   "dash": {
     "count": 4,
     "urls": [
-      "https://infinity-c33.youboranqs01.com/init",
+      "https://infinity-c38.youboranqs01.com/init",
       "https://vod-d-01-icc-we.akamaized.net/Content/DASH/VOD/10027/15200/a0088ba0-89ff-4085-a568-79eb32622e11/bc57f716-2de1-5767-3056-8fa378c33d7c/manifest.mpd",
-      "https://vod-d-01-icc-we.akamaized.net/Content/DASH/VOD/10027/15200/a0088ba0-89ff-4085-a568-79eb32622e11/bc57f716-2de1-5767-3056-8fa378c33d7c/hdntl=exp=1771645663~acl=%2fContent%2fDASH%2fVOD%2f10027%2f15200%2fa0088ba0-89ff-4085-a568-79eb32622e11%2fbc57f716-2de1-5767-3056-8fa378c33d7c%2f*~data=hdntl~hmac=99f248889d9606457bea9d5451256f872e90e26b336201984f2efbd9a501875c/manifest.mpd",
-      "https://infinity-c33.youboranqs01.com/start"
+      "https://vod-d-01-icc-we.akamaized.net/Content/DASH/VOD/10027/15200/a0088ba0-89ff-4085-a568-79eb32622e11/bc57f716-2de1-5767-3056-8fa378c33d7c/hdntl=exp=1771646482~acl=%2fContent%2fDASH%2fVOD%2f10027%2f15200%2fa0088ba0-89ff-4085-a568-79eb32622e11%2fbc57f716-2de1-5767-3056-8fa378c33d7c%2f*~data=hdntl~hmac=9e770a0732f079da01d09c8e020166ccc120af0c244dc5326b6994acaf8ca926/manifest.mpd",
+      "https://infinity-c38.youboranqs01.com/start"
     ]
   },
   "debug": {
@@ -40,7 +40,12 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/117-24f450947fcfc93b.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/main-app-050fd630f446e664.js",
+        "type": "script",
+        "status": 200
+      },
+      {
+        "url": "https://www.icc-cricket.com/_next/static/chunks/app/layout-b3e56292b46ddaa1.js",
         "type": "script",
         "status": 200
       },
@@ -55,7 +60,7 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/app/layout-b3e56292b46ddaa1.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/13b76428-f5cdb88816a57f0b.js",
         "type": "script",
         "status": 200
       },
@@ -65,27 +70,22 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/13b76428-f5cdb88816a57f0b.js",
-        "type": "script",
-        "status": 200
-      },
-      {
         "url": "https://www.icc-cricket.com/_next/static/chunks/798-b13921985cdc45e8.js",
         "type": "script",
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/main-app-050fd630f446e664.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/117-24f450947fcfc93b.js",
+        "type": "script",
+        "status": 200
+      },
+      {
+        "url": "https://www.icc-cricket.com/_next/static/chunks/61f8617b-64f9fb3059c2987a.js",
         "type": "script",
         "status": 200
       },
       {
         "url": "https://www.icc-cricket.com/_next/static/chunks/e37a0b60-8a534e0eeb30b5db.js",
-        "type": "script",
-        "status": 200
-      },
-      {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/c857e369-c639ecb3c90838dd.js",
         "type": "script",
         "status": 200
       },
@@ -100,12 +100,12 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/61f8617b-64f9fb3059c2987a.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/app/%5B%5B...pageName%5D%5D/page-5b6b4508c104bd0e.js",
         "type": "script",
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/app/%5B%5B...pageName%5D%5D/page-5b6b4508c104bd0e.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/d6bd1ac1-0fa5b1a2cd1cde35.js",
         "type": "script",
         "status": 200
       },
@@ -120,7 +120,7 @@
         "status": 200
       },
       {
-        "url": "https://www.icc-cricket.com/_next/static/chunks/d6bd1ac1-0fa5b1a2cd1cde35.js",
+        "url": "https://www.icc-cricket.com/_next/static/chunks/c857e369-c639ecb3c90838dd.js",
         "type": "script",
         "status": 200
       },
@@ -136,5 +136,5 @@
       }
     ]
   },
-  "timestamp": "2026-02-20T19:49:14.587Z"
+  "timestamp": "2026-02-20T20:02:45.554Z"
 }
