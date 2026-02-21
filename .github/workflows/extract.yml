@@ -8,7 +8,6 @@ on:
 jobs:
   extract:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -28,7 +27,7 @@ jobs:
           npm install
           npx playwright install --with-deps
 
-      - name: Run extract.js
+      - name: Run Script
         run: node extract.js
 
       - name: Setup Git
@@ -36,13 +35,16 @@ jobs:
           git config user.name "m3u8-bot"
           git config user.email "bot@users.noreply.github.com"
 
-      - name: Pull Latest
-        run: git pull origin main --rebase
-
+      # ✅ Commit FIRST
       - name: Commit Changes
         run: |
           git add m3u8.json
-          git diff --cached --quiet || git commit -m "Update m3u8"
+          git commit -m "Update m3u8" || echo "No changes"
 
-      - name: Push Changes
+      # ✅ Then Pull
+      - name: Pull Latest
+        run: git pull origin main --rebase
+
+      # ✅ Then Push
+      - name: Push
         run: git push origin main
