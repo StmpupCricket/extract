@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "fs";
 
 const TARGET_URL = process.env.TARGET_URL || 
-  "https://www.icc-cricket.com/tournaments/u19-cricket-worldcup-2026/videos/u19cwc26-zim-ind-5-min-match-highlights";
+  "https://uncutmaza.com.co/";
 
 const FOUND_M3U8 = new Set();
 const FOUND_MPD = new Set();
