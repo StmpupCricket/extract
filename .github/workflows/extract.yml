@@ -3,7 +3,7 @@ name: M3U8 Extract Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"   # Runs every 30 minutes
+    - cron: "*/30 * * * *"
 
 jobs:
   extract:
@@ -13,44 +13,36 @@ jobs:
       contents: write
 
     steps:
-      # 1️⃣ Checkout Repository
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # Important for rebase
+          fetch-depth: 0
 
-      # 2️⃣ Setup Node
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # 3️⃣ Install Dependencies
       - name: Install Dependencies
         run: |
           npm install
           npx playwright install --with-deps
 
-      # 4️⃣ Run Your Script
-      - name: Run extraxt.js
-        run: node extraxt.js
+      - name: Run extract.js
+        run: node extract.js
 
-      # 5️⃣ Configure Git
       - name: Setup Git
         run: |
           git config user.name "m3u8-bot"
           git config user.email "bot@users.noreply.github.com"
 
-      # 6️⃣ Pull Latest Changes (Fix Push Error)
-      - name: Pull Latest Changes
+      - name: Pull Latest
         run: git pull origin main --rebase
 
-      # 7️⃣ Commit File (Only if changed)
       - name: Commit Changes
         run: |
           git add m3u8.json
           git diff --cached --quiet || git commit -m "Update m3u8"
 
-      # 8️⃣ Push
       - name: Push Changes
         run: git push origin main
