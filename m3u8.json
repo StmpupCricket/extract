@@ -1,22 +1,30 @@
 {
-  "created_at": "2026-02-24T18:28:58.865Z",
-  "total": 18,
+  "created_at": "2026-02-24T19:03:52.826Z",
+  "total": 37,
   "videos": [
     {
-      "title": "Bhoot Bangla Episode 1",
-      "upload_time": "11 Hr Ago",
-      "duration": "34:00",
-      "page_url": "https://hitmaal.net/bhoot-bangla-episode-1/",
+      "title": "Kulta Digi Movieplex Episode 4",
+      "upload_time": "4 Hr Ago",
+      "duration": "14:00",
+      "page_url": "https://hitmaal.net/kulta-digi-movieplex-episode-4/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Dreams%20Films/Bhoot%20Bangla/Bhoot%20Bangla%20Episode%201.mp4"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%204.mp4"
     },
     {
-      "title": "Teacher Digi Movieplex Episode 3",
-      "upload_time": "12 Hr Ago",
-      "duration": "18:00",
-      "page_url": "https://hitmaal.net/teacher-digi-movieplex-episode-3/",
+      "title": "Pati Patni Aur Woh",
+      "upload_time": "2 Dy Ago",
+      "duration": "",
+      "page_url": "https://hitmaal.net/pati-patni-aur-woh/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%203.mp4"
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Pati%20Patni%20Aur%20Woh.mp4"
+    },
+    {
+      "title": "Adla Badli Episode 3 Digi Movieplex",
+      "upload_time": "2 Dy Ago",
+      "duration": "19:00",
+      "page_url": "https://hitmaal.net/adla-badli-episode-3-digi-movieplex/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Adla%20Badli/Adla%20Badli%20Episode%203.mp4"
     },
     {
       "title": "Gandu Dhar Episode 2",
@@ -27,12 +35,12 @@
       "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Gandu%20Dhar/Gandu%20Dhar%20Episode%202.mp4"
     },
     {
-      "title": "Upanyas",
-      "upload_time": "3 Dy Ago",
-      "duration": "18:00",
-      "page_url": "https://hitmaal.net/upanyas/",
+      "title": "Adla Badli Episode 2 Digi Movieplex",
+      "upload_time": "2 Dy Ago",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/adla-badli-episode-2-digi-movieplex/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Upanyas.mp4"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Adla%20Badli/Adla%20Badli%20Episode%202.mp4"
     },
     {
       "title": "MMS",
@@ -43,14 +51,6 @@
       "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/MMS.mp4"
     },
     {
-      "title": "Overdose",
-      "upload_time": "3 Dy Ago",
-      "duration": "25:00",
-      "page_url": "https://hitmaal.net/overdose/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/CinemaDosti/Overdose.mp4"
-    },
-    {
       "title": "Hypnosis",
       "upload_time": "3 Dy Ago",
       "duration": "23:00",
@@ -59,12 +59,36 @@
       "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Hypnosis.mp4"
     },
     {
-      "title": "Shaatir Mashooqa",
+      "title": "Dream Girl Bull Episode 4",
       "upload_time": "4 Dy Ago",
-      "duration": "20:00",
-      "page_url": "https://hitmaal.net/shaatir-mashooqa/",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/dream-girl-bull-episode-4/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Chiku/Single/Shaatir%20Mashooqa.mp4"
+      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20Episode%204.mp4"
+    },
+    {
+      "title": "Mastram Ki Sundari Episode 2",
+      "upload_time": "5 Dy Ago",
+      "duration": "26:00",
+      "page_url": "https://hitmaal.net/mastram-ki-sundari-episode-2/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bumper%20TV/Mastram%20Ki%20Sundari/Mastram%20Ki%20Sundari%20Episode%202.mp4"
+    },
+    {
+      "title": "Chhatri Episode 2",
+      "upload_time": "5 Dy Ago",
+      "duration": "25:00",
+      "page_url": "https://hitmaal.net/chhatri-episode-2/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bull/Chhatri/Chhatri%20E2.mp4"
+    },
+    {
+      "title": "Sautan Saheli Episode 3",
+      "upload_time": "5 Dy Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/sautan-saheli-episode-3/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bull/Sautan%20Saheli/Sautan%20Saheli%20E3.mp4"
     },
     {
       "title": "Chhatri Episode 3",
@@ -75,36 +99,60 @@
       "stream_url": "https://video.maalcdn.com/Bull/Chhatri/Chhatri%20E3.mp4"
     },
     {
-      "title": "Hostage House",
-      "upload_time": "2 Wk Ago",
-      "duration": "22:00",
-      "page_url": "https://hitmaal.net/hostage-house/",
+      "title": "Dream Girl Bull Episode 1",
+      "upload_time": "6 Dy Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/dream-girl-bull-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Hostage%20House.mp4"
+      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20E1.mp4"
     },
     {
-      "title": "Hisaab Barabar",
-      "upload_time": "2 Wk Ago",
-      "duration": "15:00",
-      "page_url": "https://hitmaal.net/hisaab-barabar/",
+      "title": "Mohaniya",
+      "upload_time": "1 Wk Ago",
+      "duration": "19:00",
+      "page_url": "https://hitmaal.net/mohaniya/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Hisaab%20Barabar.mp4"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Mohaniya.mp4"
     },
     {
-      "title": "Haye Daiya",
-      "upload_time": "2 Wk Ago",
-      "duration": "24:00",
-      "page_url": "https://hitmaal.net/haye-daiya/",
+      "title": "Bindaas Aunty",
+      "upload_time": "1 Wk Ago",
+      "duration": "30:00",
+      "page_url": "https://hitmaal.net/bindaas-aunty/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Haye%20Daiya.mp4"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bindaas%20Aunty.mp4"
     },
     {
-      "title": "Jism Pujari",
+      "title": "Raat Gai Baat Gai",
       "upload_time": "2 Wk Ago",
-      "duration": "32:00",
-      "page_url": "https://hitmaal.net/jism-pujari/",
+      "duration": "48:00",
+      "page_url": "https://hitmaal.net/raat-gai-baat-gai/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Jism%20Pujari.mp4"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Raat%20Gai%20Baat%20Gai.mp4"
+    },
+    {
+      "title": "Na Jaane Kya Hua",
+      "upload_time": "2 Wk Ago",
+      "duration": "26:00",
+      "page_url": "https://hitmaal.net/na-jaane-kya-hua/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Na%20Jaane%20Kya%20Hua.mp4"
+    },
+    {
+      "title": "KOKKH",
+      "upload_time": "2 Wk Ago",
+      "duration": "",
+      "page_url": "https://hitmaal.net/kokkh/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/KOKKH.mp4"
+    },
+    {
+      "title": "Gulab Jamun",
+      "upload_time": "2 Wk Ago",
+      "duration": "30:00",
+      "page_url": "https://hitmaal.net/gulab-jamun/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Gulab%20Jamun.mp4"
     },
     {
       "title": "Love Sex and Dhokha",
@@ -115,12 +163,100 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Love%20Sex%20and%20Dhokha.mp4"
     },
     {
-      "title": "Nehle Pe Dehla Episode 7",
+      "title": "Hot Haseena",
+      "upload_time": "2 Wk Ago",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/hot-haseena/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Hot%20Haseena.mp4"
+    },
+    {
+      "title": "Hell Girl",
+      "upload_time": "2 Wk Ago",
+      "duration": "22:00",
+      "page_url": "https://hitmaal.net/hell-girl/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Hell%20Girl.mp4"
+    },
+    {
+      "title": "Hawas Kand",
       "upload_time": "2 Wk Ago",
       "duration": "28:00",
-      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-7/",
+      "page_url": "https://hitmaal.net/hawas-kand/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%207.mp4"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Hawas%20Kand.mp4"
+    },
+    {
+      "title": "Fraud Saiyyan",
+      "upload_time": "2 Wk Ago",
+      "duration": "27:00",
+      "page_url": "https://hitmaal.net/fraud-saiyyan/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Fraud%20Saiyyan.mp4"
+    },
+    {
+      "title": "Jism Aur Paisa",
+      "upload_time": "2 Wk Ago",
+      "duration": "19:00",
+      "page_url": "https://hitmaal.net/jism-aur-paisa/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Jism%20Aur%20Paisa.mp4"
+    },
+    {
+      "title": "Gili Gili Appa",
+      "upload_time": "2 Wk Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/gili-gili-appa/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bijli/Gili%20Gili%20Appa.mp4"
+    },
+    {
+      "title": "Beraham Ishq",
+      "upload_time": "2 Wk Ago",
+      "duration": "18:00",
+      "page_url": "https://hitmaal.net/beraham-ishq/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Beraham%20Ishq.mp4"
+    },
+    {
+      "title": "Leelavati",
+      "upload_time": "2 Wk Ago",
+      "duration": "20:00",
+      "page_url": "https://hitmaal.net/leelavati/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bijli/Leelavati.mp4"
+    },
+    {
+      "title": "Nehle Pe Dehla Episode 4",
+      "upload_time": "2 Wk Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-4/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%204.mp4"
+    },
+    {
+      "title": "Behrupiya",
+      "upload_time": "2 Wk Ago",
+      "duration": "67:00",
+      "page_url": "https://hitmaal.net/behrupiya/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bijli/Behrupiya%20Full%20Web%20Series%20(XSeries.IN).mp4"
+    },
+    {
+      "title": "Nehle Pe Dehla Episode 5",
+      "upload_time": "2 Wk Ago",
+      "duration": "28:00",
+      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-5/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%205.mp4"
+    },
+    {
+      "title": "Nehle Pe Dehla Episode 6",
+      "upload_time": "2 Wk Ago",
+      "duration": "29:00",
+      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-6/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%206.mp4"
     },
     {
       "title": "Nehle Pe Dehla Episode 2",
@@ -131,20 +267,36 @@
       "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%202.mp4"
     },
     {
-      "title": "Jabran Episode 7 Big Shots",
+      "title": "Nehle Pe Dehla Episode 1",
       "upload_time": "2 Wk Ago",
-      "duration": "20:00",
-      "page_url": "https://hitmaal.net/jabran-episode-7-big-shots/",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%207.mp4"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%201.mp4"
     },
     {
-      "title": "Good Luck Episode 3",
-      "upload_time": "3 Wk Ago",
-      "duration": "35:00",
-      "page_url": "https://hitmaal.net/good-luck-episode-3-2/",
+      "title": "Jabran Episode 9 Big Shots",
+      "upload_time": "2 Wk Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/jabran-episode-9-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E3.mp4"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%209.mp4"
+    },
+    {
+      "title": "Maal Paani Andha Sasur Episode 3",
+      "upload_time": "2 Wk Ago",
+      "duration": "15:00",
+      "page_url": "https://hitmaal.net/maal-paani-andha-sasur-episode-3/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%203.mp4"
+    },
+    {
+      "title": "Maal Paani Andha Sasur Episode 4",
+      "upload_time": "2 Wk Ago",
+      "duration": "14:00",
+      "page_url": "https://hitmaal.net/maal-paani-andha-sasur-episode-4/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%204.mp4"
     }
   ]
 }
