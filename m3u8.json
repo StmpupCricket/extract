@@ -1,31 +1,7 @@
 {
-  "created_at": "2026-03-20T20:26:38.210Z",
+  "created_at": "2026-03-20T20:58:31.577Z",
   "total": 200,
   "videos": [
-    {
-      "title": "Teacher Digi Movieplex Episode 4",
-      "upload_time": "16 Hr Ago",
-      "duration": "19:00",
-      "page_url": "https://hitmaal.net/teacher-digi-movieplex-episode-4/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195415Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7f0f1bac9d3a51c61b53a066474f930a57e19cd8b0f48d6547c1528d3ccf689c"
-    },
-    {
-      "title": "Teacher Digi Movieplex Episode 3",
-      "upload_time": "12 Hr Ago",
-      "duration": "18:00",
-      "page_url": "https://hitmaal.net/teacher-digi-movieplex-episode-3/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195458Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=78a967d7f36096cdb30c2f3fb51abbc6c5bc4762c158636d28cd35c0f69ac625"
-    },
-    {
-      "title": "Kulta Digi Movieplex Episode 4",
-      "upload_time": "4 Hr Ago",
-      "duration": "14:00",
-      "page_url": "https://hitmaal.net/kulta-digi-movieplex-episode-4/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195415Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a44bc124dbc78a53b07a92e23be60bedaf110080ce53705ac926ea07ffb4f6c2"
-    },
     {
       "title": "Bhoot Bangla Episode 1",
       "upload_time": "11 Hr Ago",
@@ -33,6 +9,14 @@
       "page_url": "https://hitmaal.net/bhoot-bangla-episode-1/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Dreams%20Films/Bhoot%20Bangla/Bhoot%20Bangla%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200523Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d073fa803a31807afc38107b4e1ce5f5e1ac0b27bb3b3ac8048b495528f9c0bf"
+    },
+    {
+      "title": "Kulta Digi Movieplex Episode 4",
+      "upload_time": "4 Hr Ago",
+      "duration": "14:00",
+      "page_url": "https://hitmaal.net/kulta-digi-movieplex-episode-4/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205417Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6a1d6a442961320c3ae5e8c21b2dd4edd58f6a749ace71928107e82ee4dd0305"
     },
     {
       "title": "Bhoot Bangla Episode 2",
@@ -43,6 +27,30 @@
       "stream_url": "https://video.maalcdn.com/Dreams%20Films/Bhoot%20Bangla/Bhoot%20Bangla%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200555Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c6ae047fa9dd8bee65b0a9b1775cf3aa1bc2dcea87257468ce7c5546c2aea0fc"
     },
     {
+      "title": "Teacher Digi Movieplex Episode 4",
+      "upload_time": "16 Hr Ago",
+      "duration": "19:00",
+      "page_url": "https://hitmaal.net/teacher-digi-movieplex-episode-4/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205415Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c80dd0734df74c54d50cf2d4c461d0c3162cb347e18d5858eccef522a3317d7d"
+    },
+    {
+      "title": "Kulta Digi Movieplex Episode 3",
+      "upload_time": "4 Hr Ago",
+      "duration": "14:00",
+      "page_url": "https://hitmaal.net/kulta-digi-movieplex-episode-3/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205435Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6eaa8d28aee5cc14996dab92a884fabbf00c5eee2d02cbf637c6b1c2179a3564"
+    },
+    {
+      "title": "Teacher Digi Movieplex Episode 3",
+      "upload_time": "12 Hr Ago",
+      "duration": "18:00",
+      "page_url": "https://hitmaal.net/teacher-digi-movieplex-episode-3/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205458Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=184bedc3cb052a0a7be2bebeff5bf8a08bb4178399bc09632d7103136fa4ad85"
+    },
+    {
       "title": "Chachi Kand Episode 1",
       "upload_time": "4 Hr Ago",
       "duration": "33:00",
@@ -51,20 +59,12 @@
       "stream_url": "https://video.maalcdn.com/Dreams%20Films/Chachi%20Kand/Chachi%20Kand%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200506Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c5253833ea693a49da19668c97a02ec5e15fad1dfd43b5f0b57ba5c617c17376"
     },
     {
-      "title": "Kulta Digi Movieplex Episode 3",
-      "upload_time": "4 Hr Ago",
-      "duration": "14:00",
-      "page_url": "https://hitmaal.net/kulta-digi-movieplex-episode-3/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195434Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e010fb8aeb02b4b259eefd1ec1a2e4ad53ff02722e1fbbe9fac638d2dd50d0e5"
-    },
-    {
       "title": "Teacher Digi Movieplex Episode 2",
       "upload_time": "1 Hr Ago",
       "duration": "16:00",
       "page_url": "https://hitmaal.net/teacher-digi-movieplex-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195435Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0ad97ddbfc856c63f9b8f8ea01ccb8e64a9393e4b37b531d955d0c2052bd95bc"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205437Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=546404dd8d1038f909d651af69aed4c0f6ef5cea04b0229a7b4082370b8a2eb6"
     },
     {
       "title": "Chachi Kand Episode 2",
@@ -80,7 +80,7 @@
       "duration": "19:00",
       "page_url": "https://hitmaal.net/kalpana-episode-3/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kalpana/Kalpana%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195506Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9afa59c1cb70d734b73819352f33ae242b8181f331544872524e55228c8a6155"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kalpana/Kalpana%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205529Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=02e6eda0fdb5fb8be1b2ec9ffc7378cbfc216561edb31d9c0026d6eccac29661"
     },
     {
       "title": "Kulta Digi Movieplex Episode 2",
@@ -88,7 +88,15 @@
       "duration": "15:00",
       "page_url": "https://hitmaal.net/kulta-digi-movieplex-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195355Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c9310b407e3e90a9a44f1c8b0cc91c061f039cf7111d757751356b61538d3ded"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205359Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d874a851db08350acb467c315119e4f75232ccf9379170b62c7ff5860ddd6bbf"
+    },
+    {
+      "title": "Kalpana Episode 2",
+      "upload_time": "1 Dy Ago",
+      "duration": "20:00",
+      "page_url": "https://hitmaal.net/kalpana-episode-2/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kalpana/Kalpana%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205605Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9dc04b1b97e28f649fc57758456dffc11050aee5068082a9293fe0ba15f2a2be"
     },
     {
       "title": "Pyasi Pushpa Episode 3",
@@ -112,15 +120,7 @@
       "duration": "16:00",
       "page_url": "https://hitmaal.net/kulta-digi-movieplex-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195440Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=468bcd2633f2c47001a81349074901584d9ea0f960e52fdab44e676b46462717"
-    },
-    {
-      "title": "Kalpana Episode 2",
-      "upload_time": "1 Dy Ago",
-      "duration": "20:00",
-      "page_url": "https://hitmaal.net/kalpana-episode-2/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kalpana/Kalpana%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195603Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=21271572fcc9f7490fb09eb1b3dbada237cb0556a34af4b16fae3381b2536d1d"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kulta/Kulta%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205442Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=08f488b14e0db71adcc05610ee4773059d407823aef539bbfa9d39fa51d848cc"
     },
     {
       "title": "Kalpana Episode 4",
@@ -131,12 +131,12 @@
       "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kalpana/Kalpana%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195706Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e62c1b8c4ec6f667bb04708cfd7916e00dc7030d632d1deb9d3bb968b8e6632e"
     },
     {
-      "title": "Gandu Dhar Episode 3",
-      "upload_time": "2 Dy Ago",
-      "duration": "17:00",
-      "page_url": "https://hitmaal.net/gandu-dhar-episode-3/",
+      "title": "Mera Baap Teri Mausi Episode 3",
+      "upload_time": "1 Dy Ago",
+      "duration": "19:00",
+      "page_url": "https://hitmaal.net/mera-baap-teri-mausi-episode-3/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Gandu%20Dhar/Gandu%20Dhar%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195642Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=919a52833a048e03f76e8c2e7be31b6b034d8bdd0aea8aec33cf69062d4f6f60"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Mera%20Baap%20Teri%20Mausi/Mera%20Baap%20Teri%20Mausi%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205541Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=12850618203e0e471b95c53d6f9d399eeb0a987e0238009ce948068a0ab84e2c"
     },
     {
       "title": "Pyasi Pushpa Episode 2",
@@ -145,6 +145,30 @@
       "page_url": "https://hitmaal.net/pyasi-pushpa-episode-2/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Pyasi%20Pushpa/Pyasi%20Pushpa%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195731Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=23aa3753ec3e776bec82a93f573a0546d988a90996e87bfdbb8d3408f11cecd5"
+    },
+    {
+      "title": "Kalpana Episode 1",
+      "upload_time": "2 Dy Ago",
+      "duration": "19:00",
+      "page_url": "https://hitmaal.net/kalpana-episode-1/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kalpana/Kalpana%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205521Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5a9d0a7d354449164438c10bd8929897b49462a683787d87224593eae125e20c"
+    },
+    {
+      "title": "Gandu Dhar Episode 3",
+      "upload_time": "2 Dy Ago",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/gandu-dhar-episode-3/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Gandu%20Dhar/Gandu%20Dhar%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195642Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=919a52833a048e03f76e8c2e7be31b6b034d8bdd0aea8aec33cf69062d4f6f60"
+    },
+    {
+      "title": "Teacher Digi Movieplex Episode 1",
+      "upload_time": "2 Dy Ago",
+      "duration": "16:00",
+      "page_url": "https://hitmaal.net/teacher-digi-movieplex-episode-1/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205456Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=997f4424cbd97ce1faafafffb923c4d1b55e6a600ef9bdb8a688f1e04cd67a16"
     },
     {
       "title": "Gandu Dhar Episode 1",
@@ -160,31 +184,7 @@
       "duration": "18:00",
       "page_url": "https://hitmaal.net/mera-baap-teri-mausi-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Mera%20Baap%20Teri%20Mausi/Mera%20Baap%20Teri%20Mausi%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195511Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b5aeb0dcd113be445935938343114071e8401ae252dcdcc89caa7387002b41b6"
-    },
-    {
-      "title": "Kalpana Episode 1",
-      "upload_time": "2 Dy Ago",
-      "duration": "19:00",
-      "page_url": "https://hitmaal.net/kalpana-episode-1/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Kalpana/Kalpana%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195518Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cf668b775dc9db10667bf652accaaa96a1996598fd047653d085fe34cf0e36e7"
-    },
-    {
-      "title": "Mera Baap Teri Mausi Episode 3",
-      "upload_time": "1 Dy Ago",
-      "duration": "19:00",
-      "page_url": "https://hitmaal.net/mera-baap-teri-mausi-episode-3/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Mera%20Baap%20Teri%20Mausi/Mera%20Baap%20Teri%20Mausi%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195538Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e04401ba47cf5f6ed00d39722ff46463c9a0a1368459d922f73428fc704114f1"
-    },
-    {
-      "title": "Teacher Digi Movieplex Episode 1",
-      "upload_time": "2 Dy Ago",
-      "duration": "16:00",
-      "page_url": "https://hitmaal.net/teacher-digi-movieplex-episode-1/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Teacher/Teacher%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195452Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5a75a036a458e16c86ab72239c3b01bd7e9c1b0062694351b7ba4aaa3ea82db9"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Mera%20Baap%20Teri%20Mausi/Mera%20Baap%20Teri%20Mausi%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205521Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9873af78409e39237eac5a6d9aa4c1736b92111e9fb5aadb00da9a00a3246702"
     },
     {
       "title": "Mera Baap Teri Mausi Episode 1",
@@ -192,7 +192,7 @@
       "duration": "18:00",
       "page_url": "https://hitmaal.net/mera-baap-teri-mausi-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Mera%20Baap%20Teri%20Mausi/Mera%20Baap%20Teri%20Mausi%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195511Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=59c9a58350c9221127cf338d7a40fac5716bdc73b7c024203f87f0608d913fb2"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Mera%20Baap%20Teri%20Mausi/Mera%20Baap%20Teri%20Mausi%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205528Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=577516c06f3a6138c6d0cb4e80bb70997a15b0597476959a1aaa065f3c6bd858"
     },
     {
       "title": "Gandu Dhar Episode 2",
@@ -200,7 +200,7 @@
       "duration": "20:00",
       "page_url": "https://hitmaal.net/gandu-dhar-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Gandu%20Dhar/Gandu%20Dhar%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195634Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=84a5d5773749a9cbff7e1e330ba0f235ff6f99315381aa660b05e4bb3e188a90"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Gandu%20Dhar/Gandu%20Dhar%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205637Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bedaeca145978816ca54d08bc386c8ef5148a8907d35d82f754ce31450b0f705"
     },
     {
       "title": "Blackmail Episode 1 Digi Movieplex",
@@ -219,12 +219,12 @@
       "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Murder.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195810Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bcaf5bdebb891a9395e479afe1d85f99f0874ee1d6ea161b1da09d2d2e0efc7d"
     },
     {
-      "title": "Upanyas",
-      "upload_time": "3 Dy Ago",
-      "duration": "18:00",
-      "page_url": "https://hitmaal.net/upanyas/",
+      "title": "Pati Patni Aur Woh",
+      "upload_time": "2 Dy Ago",
+      "duration": "",
+      "page_url": "https://hitmaal.net/pati-patni-aur-woh/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Upanyas.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200006Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5f0f4bdb620ce721d8d5ecc4f2cd6681ee40571c36e1875fe94e72e2990d6295"
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Pati%20Patni%20Aur%20Woh.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200040Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d0d21bcdae5783ae4b98f0b68f8bf6d4f245dcf65cb347eef9af029289ebed67"
     },
     {
       "title": "Blackmail Episode 2 Digi Movieplex",
@@ -235,20 +235,12 @@
       "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Blackmail/Blackmail%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195849Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=dacbf1e872beb251a75a8b4c4cb9e71249ac2702fe5c60a12dfa9d2b0ba1223c"
     },
     {
-      "title": "Adla Badli Episode 2 Digi Movieplex",
-      "upload_time": "2 Dy Ago",
-      "duration": "17:00",
-      "page_url": "https://hitmaal.net/adla-badli-episode-2-digi-movieplex/",
+      "title": "Upanyas",
+      "upload_time": "3 Dy Ago",
+      "duration": "18:00",
+      "page_url": "https://hitmaal.net/upanyas/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Adla%20Badli/Adla%20Badli%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195534Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=47c198e1f1584d571b80c7b539a48f314bf483fa053b86f49340b2ec0953ec6d"
-    },
-    {
-      "title": "Pati Patni Aur Woh",
-      "upload_time": "2 Dy Ago",
-      "duration": "",
-      "page_url": "https://hitmaal.net/pati-patni-aur-woh/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Pati%20Patni%20Aur%20Woh.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200040Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d0d21bcdae5783ae4b98f0b68f8bf6d4f245dcf65cb347eef9af029289ebed67"
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Upanyas.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200006Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5f0f4bdb620ce721d8d5ecc4f2cd6681ee40571c36e1875fe94e72e2990d6295"
     },
     {
       "title": "Adla Badli Episode 3 Digi Movieplex",
@@ -256,15 +248,15 @@
       "duration": "19:00",
       "page_url": "https://hitmaal.net/adla-badli-episode-3-digi-movieplex/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Adla%20Badli/Adla%20Badli%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195520Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a72649c43796772943ea2d81780fb84172e4d968e4305f31aca9c74a488b176a"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Adla%20Badli/Adla%20Badli%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205521Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6d71257e67436a8704f495598ac1522497af8e8fc58342fb860b14e0f22f0163"
     },
     {
-      "title": "Adla Badli Episode 1 Digi Movieplex",
-      "upload_time": "3 Dy Ago",
-      "duration": "21:00",
-      "page_url": "https://hitmaal.net/adla-badli-episode-1-digi-movieplex/",
+      "title": "Adla Badli Episode 2 Digi Movieplex",
+      "upload_time": "2 Dy Ago",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/adla-badli-episode-2-digi-movieplex/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Adla%20Badli/Adla%20Badli%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195423Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ce200acdecabb7c30b622091c4e0407cfd9c325c5545e90b670a8ea4ac0b3169"
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Adla%20Badli/Adla%20Badli%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205538Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5d87c3c19f017f974a93e18c791cda91dbc6b1a7aad3c635e610ba50e1d701c1"
     },
     {
       "title": "MMS",
@@ -272,7 +264,7 @@
       "duration": "24:00",
       "page_url": "https://hitmaal.net/mms/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/MMS.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195603Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=89f9421138b618e25d1764897f3954b56be2b701fc6e956e5f54fd59c13bcdcb"
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/MMS.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205608Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d7bbb854c8c817e57cf9af1591ed5d1c63d07c5cd3d9b3ccd43fbbcf9e51468a"
     },
     {
       "title": "Night At A Hotel",
@@ -281,6 +273,14 @@
       "page_url": "https://hitmaal.net/night-at-a-hotel/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Night%20At%20A%20Hotel.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195806Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d8dd9c3c257f53df8fc0253f9a6398bf8a8b93734c2e7720fcf003932f637e33"
+    },
+    {
+      "title": "Adla Badli Episode 1 Digi Movieplex",
+      "upload_time": "3 Dy Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/adla-badli-episode-1-digi-movieplex/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Digi%20Movieplex/Adla%20Badli/Adla%20Badli%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205424Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=69027657cfd1fd259d37137487c45af100bbb065c78978f4ec6e0f07201bebac"
     },
     {
       "title": "Hypnosis",
@@ -328,7 +328,7 @@
       "duration": "23:00",
       "page_url": "https://hitmaal.net/jism/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Jism.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195633Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=12edb9a60b2e15ed29f0f238afc573969ca2d0278636e497fbff94b774547f25"
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Jism.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205646Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=421da7704c8e6ff979273e2e98072b7aa73f9ee345b08b71b26f81c2c479b42c"
     },
     {
       "title": "Flat No 108",
@@ -344,7 +344,7 @@
       "duration": "29:00",
       "page_url": "https://hitmaal.net/mol-ki-bahu-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Mol%20Ki%20Bahu/Mol%20Ki%20Bahu%20E1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195616Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c364ed642497185f4b47bb55ec9d6915de89f998565ed7d5a6008874fe4d4d33"
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Mol%20Ki%20Bahu/Mol%20Ki%20Bahu%20E1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205624Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ec7a73ac5944723d49430e4240505276ea59f1a9127e3f3eebe15bba34bc0bb5"
     },
     {
       "title": "Mol Ki Bahu Episode 2",
@@ -352,7 +352,7 @@
       "duration": "30:00",
       "page_url": "https://hitmaal.net/mol-ki-bahu-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Mol%20Ki%20Bahu/Mol%20Ki%20Bahu%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195601Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f4a8e4e03de8a8a2b5055fa5a41cde636b49a31c71e674df4aff729aff76dfcf"
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Mol%20Ki%20Bahu/Mol%20Ki%20Bahu%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205605Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=195c7b799949bb4092c552bbea7fed4d8863bb747df10ca541ea1682dabc61f9"
     },
     {
       "title": "Chattri",
@@ -360,7 +360,15 @@
       "duration": "22:00",
       "page_url": "https://hitmaal.net/chattri/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Chattri.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195601Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4417b9b4078806e2c69bf782f9a05c4f83e5d4c60db45563f8098ef01d4da5ae"
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Chattri.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205604Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bf0a0c1f113f7ed13326abfd734e819e7ba4e457a3c7faa221b81b9bf5adbf8c"
+    },
+    {
+      "title": "Massage Parlour",
+      "upload_time": "4 Dy Ago",
+      "duration": "23:00",
+      "page_url": "https://hitmaal.net/massage-parlour/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Massage%20Parlour.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205624Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=758ca4e4acb2f7a887db47bce46a4deabff4a0f2772d9393ada518099edbf3eb"
     },
     {
       "title": "Fareb",
@@ -376,39 +384,7 @@
       "duration": "26:00",
       "page_url": "https://hitmaal.net/golgappe-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Gol%20Gappe/Gol%20Gappe%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195543Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=46c544e5c1b76671e989328d88c87ff81d099df92632b29f5c6d4311aa978297"
-    },
-    {
-      "title": "Mastram Ki Sundari Episode 1",
-      "upload_time": "4 Dy Ago",
-      "duration": "32:00",
-      "page_url": "https://hitmaal.net/mastram-ki-sundari-episode-1/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bumper%20TV/Mastram%20Ki%20Sundari/Mastram%20Ki%20Sundari%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200646Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d79202dedfb47ace1eb15ec718159d6cb7669f217e40836f2cf2768a84b4a392"
-    },
-    {
-      "title": "Massage Parlour",
-      "upload_time": "4 Dy Ago",
-      "duration": "23:00",
-      "page_url": "https://hitmaal.net/massage-parlour/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Cine%20Prime/Single/Massage%20Parlour.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195617Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=02d66760186faaeceb8cabb9db25a987fad61fa6ea7dc101b3ca0445e2ad1a0a"
-    },
-    {
-      "title": "Dream Girl Bull Episode 4",
-      "upload_time": "4 Dy Ago",
-      "duration": "17:00",
-      "page_url": "https://hitmaal.net/dream-girl-bull-episode-4/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195440Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ddf0a1370df6e5a3fa19e652d2faa58d541af368ffd4145dcc94ef48080e8f18"
-    },
-    {
-      "title": "Dream Girl Bull Episode 3",
-      "upload_time": "4 Dy Ago",
-      "duration": "15:00",
-      "page_url": "https://hitmaal.net/dream-girl-bull-episode-3/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195604Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4c9b33b2cf9020a9f41a1231ee443117dcf09d8e54dcfc2634872fc82fb2ee41"
+      "stream_url": "https://video.maalcdn.com/Bull/Gol%20Gappe/Gol%20Gappe%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205547Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=28224a9f624c5517db76f85093413d0e2de9e663b467de768ba0164871467de5"
     },
     {
       "title": "Macho Man",
@@ -419,12 +395,28 @@
       "stream_url": "https://video.maalcdn.com/Chiku/Single/Macho%20Man.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200245Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8eee090b3ff5d936fbd2f9eff4d24609812a3f442bcdd29abb75893aa8cf74ce"
     },
     {
-      "title": "Sacha Pyaar",
+      "title": "Mastram Ki Sundari Episode 1",
       "upload_time": "4 Dy Ago",
-      "duration": "25:00",
-      "page_url": "https://hitmaal.net/sacha-pyaar/",
+      "duration": "32:00",
+      "page_url": "https://hitmaal.net/mastram-ki-sundari-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Single/Sachcha%20Pyar.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195626Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ae0fd98665ea49c75e28581402b4ac358480787dea85c2e11e74d1fbf8005f4a"
+      "stream_url": "https://video.maalcdn.com/Bumper%20TV/Mastram%20Ki%20Sundari/Mastram%20Ki%20Sundari%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200646Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d79202dedfb47ace1eb15ec718159d6cb7669f217e40836f2cf2768a84b4a392"
+    },
+    {
+      "title": "Dream Girl Bull Episode 4",
+      "upload_time": "4 Dy Ago",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/dream-girl-bull-episode-4/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205500Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=61f0acac074a23160247b65f6e2adef3338cdc3ea8667c85abba490f1639984f"
+    },
+    {
+      "title": "Dream Girl Bull Episode 3",
+      "upload_time": "4 Dy Ago",
+      "duration": "15:00",
+      "page_url": "https://hitmaal.net/dream-girl-bull-episode-3/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205607Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=54e1007af454b5f48de0ed2d76820292c3b889509d7f237c73e79565dc6f59c9"
     },
     {
       "title": "Gol Gappe Episode 1",
@@ -432,31 +424,15 @@
       "duration": "27:00",
       "page_url": "https://hitmaal.net/gol-gappe-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Gol%20Gappe/Gol%20Gappe%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195513Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f7090abb642de2c420b505cea315cf956f4203d755b018a11d0a8f298375a9c0"
+      "stream_url": "https://video.maalcdn.com/Bull/Gol%20Gappe/Gol%20Gappe%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205518Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=271c86c4550e9305b887a4ecbe6cb5233a1702d18baccc023f512ee664b1c63e"
     },
     {
-      "title": "Kaamwali",
-      "upload_time": "5 Dy Ago",
-      "duration": "16:00",
-      "page_url": "https://hitmaal.net/kaamwali/",
+      "title": "Sacha Pyaar",
+      "upload_time": "4 Dy Ago",
+      "duration": "25:00",
+      "page_url": "https://hitmaal.net/sacha-pyaar/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Chiku/Single/Kaamwali.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195719Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=715a91882b499c1b2f57cc9d2ee08acb9905ed5a159df7b3a312cf022a29a025"
-    },
-    {
-      "title": "Mastram Ki Sundari Episode 2",
-      "upload_time": "5 Dy Ago",
-      "duration": "26:00",
-      "page_url": "https://hitmaal.net/mastram-ki-sundari-episode-2/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bumper%20TV/Mastram%20Ki%20Sundari/Mastram%20Ki%20Sundari%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200646Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7cf7bcc1cd88fd2b8a06f6d3e044bad47b970351b8295fa4420c261fb08c0fe0"
-    },
-    {
-      "title": "Aayyash Pati",
-      "upload_time": "5 Dy Ago",
-      "duration": "36:00",
-      "page_url": "https://hitmaal.net/aayyash-pati/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Chiku/Single/Aayyash%20Pati.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200152Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c845d268a91804b7cfb6f98ded4ebbbfffc7efdd0f760ce27208d9ac0df4ca92"
+      "stream_url": "https://video.maalcdn.com/Bull/Single/Sachcha%20Pyar.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205643Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a9b311239570d3da6d84ef7894976e812ce901a8a465a587b3d725309caa25f3"
     },
     {
       "title": "Shaatir Mashooqa",
@@ -467,12 +443,36 @@
       "stream_url": "https://video.maalcdn.com/Chiku/Single/Shaatir%20Mashooqa.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200152Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=91e561495995d4eef331ba2f0ba04f90a1b2a34513a5650755a4fcd95f235f08"
     },
     {
-      "title": "Chhatri Episode 3",
+      "title": "Mastram Ki Sundari Episode 2",
       "upload_time": "5 Dy Ago",
-      "duration": "31:00",
-      "page_url": "https://hitmaal.net/chhatri-episode-3/",
+      "duration": "26:00",
+      "page_url": "https://hitmaal.net/mastram-ki-sundari-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Chhatri/Chhatri%20E3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195618Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=49d8288c67ec8fd7f8adb6c2d143b8bbd56457d6f53c1b139c6ea854c8636998"
+      "stream_url": "https://video.maalcdn.com/Bumper%20TV/Mastram%20Ki%20Sundari/Mastram%20Ki%20Sundari%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200646Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7cf7bcc1cd88fd2b8a06f6d3e044bad47b970351b8295fa4420c261fb08c0fe0"
+    },
+    {
+      "title": "Kaamwali",
+      "upload_time": "5 Dy Ago",
+      "duration": "16:00",
+      "page_url": "https://hitmaal.net/kaamwali/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Chiku/Single/Kaamwali.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195719Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=715a91882b499c1b2f57cc9d2ee08acb9905ed5a159df7b3a312cf022a29a025"
+    },
+    {
+      "title": "Aayyash Pati",
+      "upload_time": "5 Dy Ago",
+      "duration": "36:00",
+      "page_url": "https://hitmaal.net/aayyash-pati/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Chiku/Single/Aayyash%20Pati.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200152Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c845d268a91804b7cfb6f98ded4ebbbfffc7efdd0f760ce27208d9ac0df4ca92"
+    },
+    {
+      "title": "12th Pass",
+      "upload_time": "5 Dy Ago",
+      "duration": "16:00",
+      "page_url": "https://hitmaal.net/12th-pass/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Chiku/Single/12th%20Pass.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200245Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1707aec1f3b85dd7dafb309b35df49b3d9913747e98042b0ef1366150415f367"
     },
     {
       "title": "Chhatri Episode 2",
@@ -491,12 +491,12 @@
       "stream_url": "https://video.maalcdn.com/Bull/Chhatri/Chhatri%20E1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195834Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7f32a34491f5b2a85cddbe53e776ba7840707936749b9638c4cd70c92b405dba"
     },
     {
-      "title": "12th Pass",
+      "title": "Chhatri Episode 3",
       "upload_time": "5 Dy Ago",
-      "duration": "16:00",
-      "page_url": "https://hitmaal.net/12th-pass/",
+      "duration": "31:00",
+      "page_url": "https://hitmaal.net/chhatri-episode-3/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Chiku/Single/12th%20Pass.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200245Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1707aec1f3b85dd7dafb309b35df49b3d9913747e98042b0ef1366150415f367"
+      "stream_url": "https://video.maalcdn.com/Bull/Chhatri/Chhatri%20E3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205627Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=dca6f1f8f75d04ae6ed6a611dbcbe7e44c91e75aca4b6a8da7ed9d8a84288131"
     },
     {
       "title": "Sautan Saheli Episode 3",
@@ -512,7 +512,7 @@
       "duration": "21:00",
       "page_url": "https://hitmaal.net/dream-girl-bull-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20E1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195604Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8c68732137d9b85651394c1b4e095814f932e42260c9b2126f277b3fbe73bde8"
+      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20E1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205607Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c2031e442a167b39c53f056c25518c466b1abc3611e2d993db6078943f8b11fe"
     },
     {
       "title": "Dream Girl Bull Episode 2",
@@ -520,7 +520,7 @@
       "duration": "20:00",
       "page_url": "https://hitmaal.net/dream-girl-bull-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195604Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=66c7cdb4ae72365b2127843110213e33cca2792f111b42a09a5da17af16d292d"
+      "stream_url": "https://video.maalcdn.com/Bull/Dream%20Girl/Dream%20Girl%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205607Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e5bb1746d5d228eb1563a812a5d97843b43c8efb4419b833c7d65d813eccaad0"
     },
     {
       "title": "Chull Episode 2 Bull",
@@ -528,7 +528,7 @@
       "duration": "26:00",
       "page_url": "https://hitmaal.net/chull-episode-2-bull/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Chull/Chull%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195527Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ed28e2349403768f553c4c05bf364528c7e7a194fc87551a0048d99012019b50"
+      "stream_url": "https://video.maalcdn.com/Bull/Chull/Chull%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205547Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=dfb85617182788ee5f88c8c74e88e2540b6b1672ecc489ece210902456b4c379"
     },
     {
       "title": "Chull Episode 1 Bull",
@@ -536,7 +536,7 @@
       "duration": "25:00",
       "page_url": "https://hitmaal.net/chull-episode-1-bull/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bull/Chull/Chull%20E1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195624Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8d738beb0e83a5cbcbd6e4363070f6eda9f0691bb3a1259b1e3de0d511466299"
+      "stream_url": "https://video.maalcdn.com/Bull/Chull/Chull%20E1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205637Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bcead20d123514c870fc10174c965beeb0742496ff1509768cd9c36e134a3f48"
     },
     {
       "title": "Sautan Saheli Episode 2",
@@ -547,20 +547,20 @@
       "stream_url": "https://video.maalcdn.com/Bull/Sautan%20Saheli/Sautan%20Saheli%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195856Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2a43535acb6f8eb4924f9cd03a7cc65ca9770c5ec65ff33b9f861a3a8253577d"
     },
     {
-      "title": "Sach Much",
-      "upload_time": "1 Wk Ago",
-      "duration": "30:00",
-      "page_url": "https://hitmaal.net/sach-much/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Sach%20Much.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200428Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8b446dd95650b4dc31148cfb662df86567c9de00358bb16e2953b116ad9710e1"
-    },
-    {
       "title": "Sautan Saheli Episode 1",
       "upload_time": "6 Dy Ago",
       "duration": "24:00",
       "page_url": "https://hitmaal.net/sautan-saheli-episode-1/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Bull/Sautan%20Saheli/Sautan%20Saheli%20E1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195856Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=056c9726c8943042c51993f8bbf2ebfb9b3f6d080d4c4644726ef0e4270b95f8"
+    },
+    {
+      "title": "Sach Much",
+      "upload_time": "1 Wk Ago",
+      "duration": "30:00",
+      "page_url": "https://hitmaal.net/sach-much/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Sach%20Much.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200428Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8b446dd95650b4dc31148cfb662df86567c9de00358bb16e2953b116ad9710e1"
     },
     {
       "title": "Sahapathi",
@@ -595,14 +595,6 @@
       "stream_url": "https://video.maalcdn.com/Bull/Single/First%20Time.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195717Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f405cea9295b6d140f2d5bb9ea564a866e53786ffe02b2e1164871f3fea8d043"
     },
     {
-      "title": "Bholi Kaniya",
-      "upload_time": "1 Wk Ago",
-      "duration": "21:00",
-      "page_url": "https://hitmaal.net/bholi-kaniya/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bholi%20Kaniya.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200129Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b476d0e29a769a3f7f7cbcd13247ad26288502a9bd72e43b822f9eca014d9111"
-    },
-    {
       "title": "Mai Pyaasi Tu Sawan",
       "upload_time": "1 Wk Ago",
       "duration": "22:00",
@@ -617,6 +609,14 @@
       "page_url": "https://hitmaal.net/bindaas-aunty/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bindaas%20Aunty.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200554Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1ef46c544cd4f0dec0a29bd10a75680fc232b04361f9d8ee7b12c7d29498f171"
+    },
+    {
+      "title": "Bholi Kaniya",
+      "upload_time": "1 Wk Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/bholi-kaniya/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bholi%20Kaniya.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200129Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b476d0e29a769a3f7f7cbcd13247ad26288502a9bd72e43b822f9eca014d9111"
     },
     {
       "title": "Bhadaas",
@@ -659,12 +659,12 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Dhith.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200829Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2b629ea65e82023de935337ee2f6a0bc236bc8f6f6473c887c93cb42c8f55067"
     },
     {
-      "title": "Jism Aur Jajbaat",
+      "title": "Paramsukh 2",
       "upload_time": "1 Wk Ago",
-      "duration": "25:00",
-      "page_url": "https://hitmaal.net/jism-aur-jajbaat/",
+      "duration": "29:00",
+      "page_url": "https://hitmaal.net/paramsukh-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Sundara%20Returns-%20Jism%20Aur%20Jajbaat.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201221Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ba9e13822dd05c60656bdd197dd2350f54369e35f062c43d7f0c5927e005771a"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Paramsukh%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200359Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8f843fc5c70c7e421eca916b323452178d76fc153fcd8a51d3497e07ab8fca52"
     },
     {
       "title": "Ratri Sukh",
@@ -675,20 +675,20 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Ratri%20Sukh.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200405Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=38c6128821f37aab57a1b8f66ab25ece0a17fb7beb3abfa16b282539587e6951"
     },
     {
+      "title": "Jism Aur Jajbaat",
+      "upload_time": "1 Wk Ago",
+      "duration": "25:00",
+      "page_url": "https://hitmaal.net/jism-aur-jajbaat/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Sundara%20Returns-%20Jism%20Aur%20Jajbaat.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201221Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ba9e13822dd05c60656bdd197dd2350f54369e35f062c43d7f0c5927e005771a"
+    },
+    {
       "title": "Ratri Kand",
       "upload_time": "1 Wk Ago",
       "duration": "65:00",
       "page_url": "https://hitmaal.net/ratri-kand/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Ratri%20Kand.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200405Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6a5d98381c2d6c36f424037a70c2eed2ef117776d6cd792113ed396431d8e5c8"
-    },
-    {
-      "title": "Paramsukh 2",
-      "upload_time": "1 Wk Ago",
-      "duration": "29:00",
-      "page_url": "https://hitmaal.net/paramsukh-2/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Paramsukh%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200359Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8f843fc5c70c7e421eca916b323452178d76fc153fcd8a51d3497e07ab8fca52"
     },
     {
       "title": "Sambhog Sadhna",
@@ -731,14 +731,6 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Sundara%20Returns-%20Rangraliya.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201009Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3036ea33aeb6c2f2b635585793d903629ee97b69b6484464d76e826eadc2f598"
     },
     {
-      "title": "The Honeymoon Secret",
-      "upload_time": "1 Wk Ago",
-      "duration": "22:00",
-      "page_url": "https://hitmaal.net/the-honeymoon-secret/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/The%20Honeymoon%20Secret.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200646Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9001feae9f1542b71c0fea382babc7348e8634d9f6ef9e8fe9ba312d2a41c105"
-    },
-    {
       "title": "Shabab",
       "upload_time": "1 Wk Ago",
       "duration": "21:00",
@@ -753,6 +745,14 @@
       "page_url": "https://hitmaal.net/sax-robbo/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Sax%20Robbo.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200153Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=78c9b7455553b6dacacdb022e2e078d74435634c29937b30f61321dcad68880b"
+    },
+    {
+      "title": "The Honeymoon Secret",
+      "upload_time": "1 Wk Ago",
+      "duration": "22:00",
+      "page_url": "https://hitmaal.net/the-honeymoon-secret/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/The%20Honeymoon%20Secret.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200646Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9001feae9f1542b71c0fea382babc7348e8634d9f6ef9e8fe9ba312d2a41c105"
     },
     {
       "title": "Special Delivery",
@@ -787,6 +787,14 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Mithi%20Chatani.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195910Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b095b0c10f1ad33849e2487957271c78fba9edde399f698d5e5880c76961d022"
     },
     {
+      "title": "Nigodi",
+      "upload_time": "1 Wk Ago",
+      "duration": "18:00",
+      "page_url": "https://hitmaal.net/nigodi/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Nigodi.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200552Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5c638b627ddadbf416623a94c427319ac23ec83980d8d9af34123348a7af4236"
+    },
+    {
       "title": "Private Pathshala",
       "upload_time": "1 Wk Ago",
       "duration": "24:00",
@@ -819,12 +827,12 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Mohabbat%20Ki%20Jhoothi%20Dastaan.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200124Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=60c23e012a6653ea40b4260b818f499361f872d3c2c0f88db1b339efc970de1c"
     },
     {
-      "title": "Nigodi",
-      "upload_time": "1 Wk Ago",
-      "duration": "18:00",
-      "page_url": "https://hitmaal.net/nigodi/",
+      "title": "Miss Anjali",
+      "upload_time": "2 Wk Ago",
+      "duration": "43:00",
+      "page_url": "https://hitmaal.net/miss-anjali/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Nigodi.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200552Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5c638b627ddadbf416623a94c427319ac23ec83980d8d9af34123348a7af4236"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Miss%20Anjali.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201206Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=147d738010b2c3e9e2792a5d22692cfcee1cceb3451bddb12978b2723140406a"
     },
     {
       "title": "Raat Gai Baat Gai",
@@ -833,14 +841,6 @@
       "page_url": "https://hitmaal.net/raat-gai-baat-gai/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Raat%20Gai%20Baat%20Gai.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201336Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=29972bd28deb609944d023dd0d665b08b6f9421c8c4a4818338b63dfb4045d74"
-    },
-    {
-      "title": "Miss Anjali",
-      "upload_time": "2 Wk Ago",
-      "duration": "43:00",
-      "page_url": "https://hitmaal.net/miss-anjali/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Miss%20Anjali.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201206Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=147d738010b2c3e9e2792a5d22692cfcee1cceb3451bddb12978b2723140406a"
     },
     {
       "title": "Na Jaane Kya Hua",
@@ -907,12 +907,12 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Jism%20Pujari.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200218Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=adb04c05eacf3da815e30fe3cd9fcde7cd541c07eb6ce547c41ecfd3cf957c89"
     },
     {
-      "title": "Jism Aur Paisa",
+      "title": "KOKKH",
       "upload_time": "2 Wk Ago",
-      "duration": "19:00",
-      "page_url": "https://hitmaal.net/jism-aur-paisa/",
+      "duration": "",
+      "page_url": "https://hitmaal.net/kokkh/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Jism%20Aur%20Paisa.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201132Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f0323e8f8449106c87f1421aad42515a04c33c8d6f4ca8ad23623c0c56b2243a"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/KOKKH.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200729Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=daaefbee9102c5ebc67aa120ac1933a7e5b814594d042f3c64146a43453a348d"
     },
     {
       "title": "Gulab Jamun",
@@ -923,20 +923,12 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Gulab%20Jamun.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201212Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ef04e1d20732e579a813ca6646c225091f2494d13db13b7727553243a9c3cd58"
     },
     {
-      "title": "KOKKH",
+      "title": "Jism Aur Paisa",
       "upload_time": "2 Wk Ago",
-      "duration": "",
-      "page_url": "https://hitmaal.net/kokkh/",
+      "duration": "19:00",
+      "page_url": "https://hitmaal.net/jism-aur-paisa/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/KOKKH.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200729Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=daaefbee9102c5ebc67aa120ac1933a7e5b814594d042f3c64146a43453a348d"
-    },
-    {
-      "title": "Hot Haseena",
-      "upload_time": "2 Wk Ago",
-      "duration": "17:00",
-      "page_url": "https://hitmaal.net/hot-haseena/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Hot%20Haseena.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201210Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=53bea4f206795eaed17bc9dbab2cff6837f98b3b28a14c41b67f98cad9eedfe0"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Jism%20Aur%20Paisa.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201132Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f0323e8f8449106c87f1421aad42515a04c33c8d6f4ca8ad23623c0c56b2243a"
     },
     {
       "title": "Love Sex and Dhokha",
@@ -945,6 +937,14 @@
       "page_url": "https://hitmaal.net/love-sex-and-dhokha/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Love%20Sex%20and%20Dhokha.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201212Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=86a7874ece8d20d127551a47c65eb93d32b9619a74cfc3d831c1fc5f2d6bdff1"
+    },
+    {
+      "title": "Hot Haseena",
+      "upload_time": "2 Wk Ago",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/hot-haseena/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Hot%20Haseena.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201210Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=53bea4f206795eaed17bc9dbab2cff6837f98b3b28a14c41b67f98cad9eedfe0"
     },
     {
       "title": "Hawas Kand",
@@ -971,14 +971,6 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Fraud%20Saiyyan.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201133Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=da7dd6475508bcd0c9701263cdbf4e3e1ddf4161bec10298d7d6ee036e617bef"
     },
     {
-      "title": "Dukhdayi Saiyan",
-      "upload_time": "2 Wk Ago",
-      "duration": "16:00",
-      "page_url": "https://hitmaal.net/dukhdayi-saiyan/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Dukhdayi%20Saiyan.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201319Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=614ccad080ec117ebfbc2cb12478eba2c2d381a26ad5c681dc344a8c122c4d32"
-    },
-    {
       "title": "Dirty Film",
       "upload_time": "2 Wk Ago",
       "duration": "23:00",
@@ -987,12 +979,12 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Dirty%20Film.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201319Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c977c86af316ae7f081cf6a10f1d71fe7d74cf6d15a4c04a9170667f56d4ec39"
     },
     {
-      "title": "Farzi Bhabhi",
+      "title": "Dukhdayi Saiyan",
       "upload_time": "2 Wk Ago",
-      "duration": "17:00",
-      "page_url": "https://hitmaal.net/farzi-bhabhi/",
+      "duration": "16:00",
+      "page_url": "https://hitmaal.net/dukhdayi-saiyan/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Farzi%20Bhabhi.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200417Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cb6a4523f1b2808ab75e0979cf5abd13e4929e6fc2dbcbba7d64f461d8700160"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Dukhdayi%20Saiyan.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201319Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=614ccad080ec117ebfbc2cb12478eba2c2d381a26ad5c681dc344a8c122c4d32"
     },
     {
       "title": "Doctor Gupt Rog Visheshak",
@@ -1009,6 +1001,22 @@
       "page_url": "https://hitmaal.net/chocolate/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Chocolate.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201121Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4121a7951121d0faed78ebeebca7edd824b39a2f92f0a52b332a11604469b040"
+    },
+    {
+      "title": "Farzi Bhabhi",
+      "upload_time": "2 Wk Ago",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/farzi-bhabhi/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Farzi%20Bhabhi.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200417Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cb6a4523f1b2808ab75e0979cf5abd13e4929e6fc2dbcbba7d64f461d8700160"
+    },
+    {
+      "title": "Garam Naram",
+      "upload_time": "2 Wk Ago",
+      "duration": "20:00",
+      "page_url": "https://hitmaal.net/garam-naram/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Garam%20Naram.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200455Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=264cb88d68277852444abf28a99e9326d0767e8de565291b718d136cf4c8829c"
     },
     {
       "title": "Chumeshwari",
@@ -1043,14 +1051,6 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Geometry%20Box.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200559Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4262b5c31d2d0bfc130d405993f215417d2f95f4f5f32607c1806978b26a7f30"
     },
     {
-      "title": "Bhoganiya Episode 1",
-      "upload_time": "2 Wk Ago",
-      "duration": "25:00",
-      "page_url": "https://hitmaal.net/bhoganiya-episode-1/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bhoganiya%20%282021%29/Bhoganiya%201%20%282021%29%20XSeries.IN.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200629Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=98ce6c0f1a3a4c3525d05944f05635476a2089e3254141116c4e9997dee271ad"
-    },
-    {
       "title": "Dhandha",
       "upload_time": "2 Wk Ago",
       "duration": "20:00",
@@ -1067,20 +1067,12 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bindass%20Aunty.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201419Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f4372fbcb8525a7eb40b391403c754baf850543874355d82a02f18e415789f34"
     },
     {
-      "title": "Bhoganiya Episode 3",
+      "title": "Bhoganiya Episode 1",
       "upload_time": "2 Wk Ago",
-      "duration": "16:00",
-      "page_url": "https://hitmaal.net/bhoganiya-episode-3/",
+      "duration": "25:00",
+      "page_url": "https://hitmaal.net/bhoganiya-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bhoganiya%20%282021%29/Bhoganiya%203%20%282022%29%20XSeries.IN.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201104Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2e49e47bcaafedf56cd0df2b7aa514bd1b8e2d70af8669fdc8cd1d6f066ad28f"
-    },
-    {
-      "title": "Garam Naram",
-      "upload_time": "2 Wk Ago",
-      "duration": "20:00",
-      "page_url": "https://hitmaal.net/garam-naram/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Garam%20Naram.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200455Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=264cb88d68277852444abf28a99e9326d0767e8de565291b718d136cf4c8829c"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bhoganiya%20%282021%29/Bhoganiya%201%20%282021%29%20XSeries.IN.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200629Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=98ce6c0f1a3a4c3525d05944f05635476a2089e3254141116c4e9997dee271ad"
     },
     {
       "title": "Chhup Chhup Ke",
@@ -1099,12 +1091,12 @@
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Chahat.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200719Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0c89ca5872edab01dda5220a693096478293f1fa59a66b1ea88a26fab441fd52"
     },
     {
-      "title": "Bhoganiya Episode 4",
+      "title": "Bhoganiya Episode 3",
       "upload_time": "2 Wk Ago",
-      "duration": "24:00",
-      "page_url": "https://hitmaal.net/bhoganiya-episode-4/",
+      "duration": "16:00",
+      "page_url": "https://hitmaal.net/bhoganiya-episode-3/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bhoganiya%20%282021%29/Bhoganiya%204%20%282023%29%20XSeries.IN.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200402Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e66ead8a32f1456e2711a90fa6bd63e61420301dac95cb92cc44cb656631ab06"
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bhoganiya%20%282021%29/Bhoganiya%203%20%282022%29%20XSeries.IN.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201104Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2e49e47bcaafedf56cd0df2b7aa514bd1b8e2d70af8669fdc8cd1d6f066ad28f"
     },
     {
       "title": "Bhabhi O Bhabhi",
@@ -1113,6 +1105,14 @@
       "page_url": "https://hitmaal.net/bhabhi-o-bhabhi/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bhabhi%20O%20Bhabhi.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T201206Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a70bb401eaeff3b223f1629e69d19ad1dfec6f39f54461f590522c76d8460f42"
+    },
+    {
+      "title": "Bhoganiya Episode 4",
+      "upload_time": "2 Wk Ago",
+      "duration": "24:00",
+      "page_url": "https://hitmaal.net/bhoganiya-episode-4/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Boom%20Movies/Bhoganiya%20%282021%29/Bhoganiya%204%20%282023%29%20XSeries.IN.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200402Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e66ead8a32f1456e2711a90fa6bd63e61420301dac95cb92cc44cb656631ab06"
     },
     {
       "title": "Bhoganiya Episode 2",
@@ -1155,14 +1155,6 @@
       "stream_url": "https://video.maalcdn.com/Bijli/Raspan%20Full%20Web%20Series%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195912Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0351468555cee3009343eb1c50820bbf0a099795e53d46da16009964d4d5183f"
     },
     {
-      "title": "Sambhog Yatra",
-      "upload_time": "2 Wk Ago",
-      "duration": "95:00",
-      "page_url": "https://hitmaal.net/sambhog-yatra/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bijli/Sambhog%20Yatra.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200029Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4b077d596804fd891e70ff471d96c9c2f1eb72d9777a61d993ad94bc8e6938aa"
-    },
-    {
       "title": "Rasmalai",
       "upload_time": "2 Wk Ago",
       "duration": "30:00",
@@ -1171,12 +1163,20 @@
       "stream_url": "https://video.maalcdn.com/Bijli/Rasmalai.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200029Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4d79a885937a0f3f87c7a8e69b5a6a2f7d03eb3aeb601ff04155a1e88eca6cb6"
     },
     {
+      "title": "Sambhog Yatra",
+      "upload_time": "2 Wk Ago",
+      "duration": "95:00",
+      "page_url": "https://hitmaal.net/sambhog-yatra/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bijli/Sambhog%20Yatra.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200029Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4b077d596804fd891e70ff471d96c9c2f1eb72d9777a61d993ad94bc8e6938aa"
+    },
+    {
       "title": "Nehle Pe Dehla Episode 4",
       "upload_time": "2 Wk Ago",
       "duration": "21:00",
       "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-4/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195526Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4feb5ddfb2af73e4f610ec4cdf556c341805f69128fdc12a732fcc123c806f40"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205533Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1e107d4f2707c1d0fe8a3741de3afda42a9aa50bf7dd608f72015142bfb4a620"
     },
     {
       "title": "Gili Gili Appa",
@@ -1195,14 +1195,6 @@
       "stream_url": "https://video.maalcdn.com/Bijli/Leelavati.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200029Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f44ee6e74338d88777f88ad4807aa3dfd1cfb3cedd8792780acd4cae515fa868"
     },
     {
-      "title": "Nehle Pe Dehla Episode 8",
-      "upload_time": "2 Wk Ago",
-      "duration": "32:00",
-      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-8/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%208.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195527Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ee12000e4b599fe715c0e04d0c7c3e324386c81fdd537d158871ad08c5f030a7"
-    },
-    {
       "title": "Albeli",
       "upload_time": "2 Wk Ago",
       "duration": "29:00",
@@ -1211,12 +1203,12 @@
       "stream_url": "https://video.maalcdn.com/Bijli/Albeli.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200029Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=27dc0106db00255fc0f8964b7cc0d3c2cef819a49ce157c503b28e5434dfc641"
     },
     {
-      "title": "Behrupiya",
+      "title": "Nehle Pe Dehla Episode 8",
       "upload_time": "2 Wk Ago",
-      "duration": "67:00",
-      "page_url": "https://hitmaal.net/behrupiya/",
+      "duration": "32:00",
+      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-8/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bijli/Behrupiya%20Full%20Web%20Series%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200029Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f36f8f5a228b215d45873933299492fe0797c9aec7ae93bda4536e9d3faa4e13"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%208.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205528Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8e62263af80895d0376a4ead34816e01a4461753b4d16ec1111b6b3bc8e5ef7a"
     },
     {
       "title": "Gol Gappa",
@@ -1225,14 +1217,6 @@
       "page_url": "https://hitmaal.net/gol-gappa/",
       "stream_type": "mp4",
       "stream_url": "https://video.maalcdn.com/Bijli/Gol%20Gappa.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200029Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=70bf7ed518619dcc3fefd62823483d458de8a8bf52b4ac44b879ec47f15c0220"
-    },
-    {
-      "title": "Pink Bra",
-      "upload_time": "2 Wk Ago",
-      "duration": "26:00",
-      "page_url": "https://hitmaal.net/pink-bra/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Bijli/Pink.Bra%20Full%20Web%20Series%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195937Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0885bd48424c497a025bb6bfa035de03826f3c64d9ed6292c469cda761c700e0"
     },
     {
       "title": "Nehle Pe Dehla Episode 9",
@@ -1248,7 +1232,15 @@
       "duration": "28:00",
       "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-5/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%205.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195535Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f6bcbba83959291dc559871b2432c47224736ef96b1de36f7bdb1365372ad0a0"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%205.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205536Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e5d3e153e17532346008c21d7526c8f4e47efa84ff8d68ba1135850cccb3bdea"
+    },
+    {
+      "title": "Pink Bra",
+      "upload_time": "2 Wk Ago",
+      "duration": "26:00",
+      "page_url": "https://hitmaal.net/pink-bra/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bijli/Pink.Bra%20Full%20Web%20Series%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195937Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0885bd48424c497a025bb6bfa035de03826f3c64d9ed6292c469cda761c700e0"
     },
     {
       "title": "Jabran Episode 3 Big Shots",
@@ -1256,7 +1248,15 @@
       "duration": "20:00",
       "page_url": "https://hitmaal.net/jabran-episode-3-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195527Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=20ecbc10c57b14325c7ad734010f7f11799d3b942fbf11a4130f882c5f26135f"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205533Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3ef050edb8cbeba988194231dbc6c2e38cae6166636669f6386485930049af5b"
+    },
+    {
+      "title": "Behrupiya",
+      "upload_time": "2 Wk Ago",
+      "duration": "67:00",
+      "page_url": "https://hitmaal.net/behrupiya/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Bijli/Behrupiya%20Full%20Web%20Series%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200029Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f36f8f5a228b215d45873933299492fe0797c9aec7ae93bda4536e9d3faa4e13"
     },
     {
       "title": "Nehle Pe Dehla Episode 7",
@@ -1264,7 +1264,7 @@
       "duration": "28:00",
       "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-7/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%207.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195543Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=44eaf3be9b40a0e25c1c12ccc292fe07154cb35fd518ac8c07fdaa16e8c7fd54"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%207.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205606Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d680c962b1f880fdd83128a9902645e90ff1155732eb9a2301d3946f5fe6f4b5"
     },
     {
       "title": "Jabran Episode 5 Big Shots",
@@ -1272,7 +1272,7 @@
       "duration": "21:00",
       "page_url": "https://hitmaal.net/jabran-episode-5-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%205.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195453Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=35fe54464109cbe3dc4693355c85bc6116b3beddc9ffa9f92ecc282e4f2fba39"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%205.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205455Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b978bd38354d7fd923f3e4cb0496a814cac3f8e8136bae5ca0066cb3246bc412"
     },
     {
       "title": "Nehle Pe Dehla Episode 3",
@@ -1280,7 +1280,7 @@
       "duration": "25:00",
       "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-3/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195543Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=081b8167ab416861c78ff493505d08e3b1982f6f6fa24d8157eccf8cb7d747eb"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205559Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6e2ea5ab461c86e0d4827d3bf05312f1c526366bd5ce9a83b2d4bd7d3b892b79"
     },
     {
       "title": "Jabran Episode 1 Big Shots",
@@ -1288,7 +1288,7 @@
       "duration": "20:00",
       "page_url": "https://hitmaal.net/jabran-episode-1-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195526Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c5e8d5fd7f2344f03e4b08abbb6f60527bdea8c245ebc5ea342c2a25d3ef7c42"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205535Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8bcf656453a57afa38ca34d26f98264aee8d4dc157b2c06e1557a84e3d0db281"
     },
     {
       "title": "Jabran Episode 6 Big Shots",
@@ -1296,15 +1296,7 @@
       "duration": "19:00",
       "page_url": "https://hitmaal.net/jabran-episode-6-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%206.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195525Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=da5c3633fbdbe18e4aa4b4b257b2c85060bd9d6c8f11aa5fb84c4109d233cd32"
-    },
-    {
-      "title": "Nehle Pe Dehla Episode 6",
-      "upload_time": "2 Wk Ago",
-      "duration": "29:00",
-      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-6/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%206.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195527Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=076967183e5705283cba3218373431b2d6d731ac0007252a6262fb725f9fb8ff"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%206.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205528Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e57d2f1a6654145122668d41a6e77e108de6f179c7be11f4dd2716820433dbb2"
     },
     {
       "title": "Jabran Episode 4 Big Shots",
@@ -1312,15 +1304,7 @@
       "duration": "17:00",
       "page_url": "https://hitmaal.net/jabran-episode-4-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195521Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=066f8dab641740c4109f524de5881254ab2146f9edceb1f8a8c5e16eaafe9dba"
-    },
-    {
-      "title": "Jabran Episode 2 Big Shots",
-      "upload_time": "2 Wk Ago",
-      "duration": "20:00",
-      "page_url": "https://hitmaal.net/jabran-episode-2-big-shots/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195558Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e2a495e7db7e0052cda687e17375d5649a1ec690efae07a04bbee28ea592880d"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205536Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=be97a659e0a9556140e022ff11eed9a411f97de100e8ccd9bf2e7239a36c0e68"
     },
     {
       "title": "Nehle Pe Dehla Episode 2",
@@ -1331,12 +1315,28 @@
       "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T200004Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=64c6089effd52ea711b2285be289a92c11812d2b14d104c2dac979cb1cf9f028"
     },
     {
+      "title": "Nehle Pe Dehla Episode 6",
+      "upload_time": "2 Wk Ago",
+      "duration": "29:00",
+      "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-6/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%206.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205536Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5623db49aadd6439e00c2691770b0c15554f987c576ef309dae5b789973a289e"
+    },
+    {
       "title": "Nehle Pe Dehla Episode 1",
       "upload_time": "2 Wk Ago",
       "duration": "21:00",
       "page_url": "https://hitmaal.net/nehle-pe-dehla-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195527Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7078d65ec04905fa368087f617361ca5d73ec18fa167c0b871f135b726bc4322"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Nehle%20Pe%20Dehla/Nehle%20Pe%20Dehla%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205536Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5b37cfc6e1fdd160f89952455c89f6059a851e43896a23b4c32259659d212298"
+    },
+    {
+      "title": "Jabran Episode 2 Big Shots",
+      "upload_time": "2 Wk Ago",
+      "duration": "20:00",
+      "page_url": "https://hitmaal.net/jabran-episode-2-big-shots/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205559Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7e53b0c69a9bfcbb46e56cf69d86872a104743253603b170126aee4d82257438"
     },
     {
       "title": "Maal Paani Andha Sasur Episode 1",
@@ -1344,7 +1344,7 @@
       "duration": "16:00",
       "page_url": "https://hitmaal.net/maal-paani-andha-sasur-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195504Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ccdf354783d7221b75c164b30620658ac8c4be1b4fd80e0b56c7fd556a7102cf"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205536Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=83cf164389a691e13c5879d3df421cee554c3f8e0e605e12693dd30524e81c81"
     },
     {
       "title": "Jabran Episode 7 Big Shots",
@@ -1352,7 +1352,7 @@
       "duration": "20:00",
       "page_url": "https://hitmaal.net/jabran-episode-7-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%207.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195543Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b860f527a0b4701a3078b3d79c75f13e4e23ae2f7858802d25bf8bf7590e4b3c"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%207.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205559Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3508c3918eaa74cd884b6edf0ac8371ed260cb6ea0fa6e6bfcbb6c8e45d9c188"
     },
     {
       "title": "Kache Rishtey Episode 6",
@@ -1360,7 +1360,7 @@
       "duration": "18:00",
       "page_url": "https://hitmaal.net/kache-rishtey-episode-6/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%206.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195546Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=086b125f920116a3aadb25338533472e1b52c1587b0d819f2e74ec36c46a08fd"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%206.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205614Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ee52f1a66aa142a69d2b3ec0c72161ef2844f4fc562fcd2d73bc443f0189f099"
     },
     {
       "title": "Jabran Episode 9 Big Shots",
@@ -1368,7 +1368,7 @@
       "duration": "21:00",
       "page_url": "https://hitmaal.net/jabran-episode-9-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%209.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195511Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f1e652f1b0f54db9f33d132ff1f23c16a26dd8af741c55369c52abd80e64883f"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%209.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205528Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a31b6db911eb9c275b77e37841104c241d75fa5327161854e0a1bf4d1c490cfd"
     },
     {
       "title": "Kache Rishtey Episode 4",
@@ -1376,7 +1376,7 @@
       "duration": "17:00",
       "page_url": "https://hitmaal.net/kache-rishtey-episode-4/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195547Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=25f5b0d8d1d49dfb39c8d5df1418f48560b360ed85b171f2117179614bd5326d"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205606Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d35a0731ac17688d772ece1bd1302d5985e73549e623249367000f193f5b9b15"
     },
     {
       "title": "Kache Rishtey Episode 3",
@@ -1384,7 +1384,7 @@
       "duration": "19:00",
       "page_url": "https://hitmaal.net/kache-rishtey-episode-3/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195648Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ee603d391d42ac62e3bf464a2d2c9039435ffbe03cfd54c9e13083becf2f57bf"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205656Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=88e9370104bed59cbf8095017bc93ea91650f46ca63d47aae2a9f3a61a42e03c"
     },
     {
       "title": "Maal Paani Andha Sasur Episode 3",
@@ -1392,7 +1392,7 @@
       "duration": "15:00",
       "page_url": "https://hitmaal.net/maal-paani-andha-sasur-episode-3/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195736Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f4f2a25fbb85432b87aeaca5930c27a3d3166dd203608042d65aec66aa3202ce"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205753Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7e914d1d60c573fee2eb6c93ba688ed941738cd86df97e93eae25065efab72e1"
     },
     {
       "title": "Kache Rishtey Episode 5",
@@ -1400,7 +1400,7 @@
       "duration": "20:00",
       "page_url": "https://hitmaal.net/kache-rishtey-episode-5/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%205.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195548Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8b0d17f43e8a5724ff5004739345bff82ecd99b04093069f53910b63f89e0c15"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%205.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205609Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8aa31807f1f6ed949fd7f54a78c8e4f1887162eb80b85d2c77975f590b0269fb"
     },
     {
       "title": "Maal Paani Andha Sasur Episode 2",
@@ -1408,7 +1408,7 @@
       "duration": "17:00",
       "page_url": "https://hitmaal.net/maal-paani-andha-sasur-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195720Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=84902848475ef5a559ae1c40283119d5848911ffddd2176381e7a0b0fab323ab"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205753Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d05b2ae82dd820bcfd46633ea9aa2de2b30cbd467fd0dfdc5a411ac436b04777"
     },
     {
       "title": "Kache Rishtey Episode 1",
@@ -1416,15 +1416,7 @@
       "duration": "22:00",
       "page_url": "https://hitmaal.net/kache-rishtey-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195528Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=fba6b6805640b9ca993df7fcd0a773112cff06f696ea22cf6a06466fbd76a9bb"
-    },
-    {
-      "title": "Kache Rishtey Episode 2",
-      "upload_time": "2 Wk Ago",
-      "duration": "21:00",
-      "page_url": "https://hitmaal.net/kache-rishtey-episode-2/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195550Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9bb6b81d304c3cd6c474f523af3462c3a9b1868a9aa7596e9d77081718a39ebd"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205536Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cfbdc47c60175022761119a68c389542b828ab19d31d5a084a4344d5860f92c8"
     },
     {
       "title": "Jabran Episode 8 Big Shots",
@@ -1432,7 +1424,7 @@
       "duration": "22:00",
       "page_url": "https://hitmaal.net/jabran-episode-8-big-shots/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%208.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195449Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3ca07878f74ba924f3ad2dd5f4b933b02fb843c2f6b2ead1169f391c0091e2bf"
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Jabran/Jabran%20Episode%208.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205455Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e4d8c4cb04ca226b453dd0ede26e5ed74030f77bc30ae4b02b7c454e288cbc36"
     },
     {
       "title": "Ghutan Episode 4",
@@ -1440,7 +1432,23 @@
       "duration": "18:00",
       "page_url": "https://hitmaal.net/ghutan-episode-4/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Ghutan/Ghutan%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195620Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ee89657a43fba218034935b3e628a5dc2f575741a85727cb32ec35b8d76bbd93"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Ghutan/Ghutan%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205623Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ba892485e14c3fa4730af485a1b10aa90bf9fd6e67efcd204330743a107648b1"
+    },
+    {
+      "title": "Kache Rishtey Episode 2",
+      "upload_time": "2 Wk Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/kache-rishtey-episode-2/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Shots/Kache%20Rishtey/Kache%20Rishtey%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205559Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=34c3b45957fd01019f34319ceb04d83d2403a1addb13af4e670a462bb4967351"
+    },
+    {
+      "title": "Mistake Episode 2",
+      "upload_time": "2 Wk Ago",
+      "duration": "27:00",
+      "page_url": "https://hitmaal.net/mistake-episode-2/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Mistake%20%282023%29/Mistake%20S01E02%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205756Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4bb41823f13f1b6ad21a791586ef76bdd9d6ab6476223cebe0b6432ba674d816"
     },
     {
       "title": "Ghutan Episode 2",
@@ -1456,7 +1464,7 @@
       "duration": "14:00",
       "page_url": "https://hitmaal.net/maal-paani-andha-sasur-episode-4/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195658Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e7dcf9e3820650ac1700fac989df79a7e4f0d1b282afe83ebec6060ea803643b"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Andha%20Sasur/Maal%20Paani%20Andha%20Sasur%20Episode%204.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205709Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d86b9abf8f571aede20dbaab3bfbff3ed63702432c14707cf39bfedf519b6901"
     },
     {
       "title": "Maal Paani Nagar Vadhu Episode 1",
@@ -1472,31 +1480,7 @@
       "duration": "17:00",
       "page_url": "https://hitmaal.net/gup-chup-nri-client-episode-3/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Gup%20Chup%20NRI%20Client/Gup%20Chup%20NRI%20Client%20E3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195504Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d6a391afeb9d4fa2a08db668e31c8429eb974632894f8350b21206ff0d0a50ce"
-    },
-    {
-      "title": "Ghutan Episode 1",
-      "upload_time": "2 Wk Ago",
-      "duration": "18:00",
-      "page_url": "https://hitmaal.net/ghutan-episode-1/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Ghutan/Ghutan%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195638Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=692c1a5af4d0bf3a3c98636f5d8bff1df9df2ce80005ecdee6cbc1b77a8ae979"
-    },
-    {
-      "title": "Mistake Episode 2",
-      "upload_time": "2 Wk Ago",
-      "duration": "27:00",
-      "page_url": "https://hitmaal.net/mistake-episode-2/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Mistake%20%282023%29/Mistake%20S01E02%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195743Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=67b82c69f2623ccce85cdb6696530f96429fa0dd984854761c454bedd9e17347"
-    },
-    {
-      "title": "Ghutan Episode 3",
-      "upload_time": "3 Wk Ago",
-      "duration": "17:00",
-      "page_url": "https://hitmaal.net/ghutan-episode-3/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Ghutan/Ghutan%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195728Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=164b4cb7a4c00ac60d2475d72bf19222984a27ed6be6a9c6ca234470b227f45c"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Gup%20Chup%20NRI%20Client/Gup%20Chup%20NRI%20Client%20E3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205516Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ca2bb1572227004f473b155044a6926ce5d09ef7b26165c0bc4d23b321f5ec37"
     },
     {
       "title": "Gup Chup NRI Client Episode 2",
@@ -1504,7 +1488,23 @@
       "duration": "16:00",
       "page_url": "https://hitmaal.net/gup-chup-nri-client-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Gup%20Chup%20NRI%20Client/Gup%20Chup%20NRI%20Client%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195638Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f05013d21d66de9a5cf51a3d98e607d97496a06ed25990323fd7dcdce0bfe7e8"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Gup%20Chup%20NRI%20Client/Gup%20Chup%20NRI%20Client%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205657Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=efaf5993fb6c6405ca98a9534d5309103e24ae922aae66d3ce5a7765cc5a87e9"
+    },
+    {
+      "title": "Ghutan Episode 3",
+      "upload_time": "3 Wk Ago",
+      "duration": "17:00",
+      "page_url": "https://hitmaal.net/ghutan-episode-3/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Ghutan/Ghutan%20Episode%203.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205808Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ae7eebf0faa20b598e790bc9e0e53822e78c9a59a2ff43ae88e2a6e4fe76ac5e"
+    },
+    {
+      "title": "Ghutan Episode 1",
+      "upload_time": "2 Wk Ago",
+      "duration": "18:00",
+      "page_url": "https://hitmaal.net/ghutan-episode-1/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Ghutan/Ghutan%20Episode%201.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205644Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=81dea746f242329ef0b822ce4c1c1caa1f82b8ac40679b2df1a1a2df3659e0c2"
     },
     {
       "title": "Maal Paani Nagar Vadhu Episode 2",
@@ -1512,7 +1512,7 @@
       "duration": "28:00",
       "page_url": "https://hitmaal.net/maal-paani-nagar-vadhu-episode-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Nagar%20Vadhu/Maal%20Paani%20Nagar%20Vadhu%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195701Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3ee7c0444428eed1ff2d4e6c95c3db020fb06168edc81d8042b7415f7b6fc286"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Maal%20Paani%20Nagar%20Vadhu/Maal%20Paani%20Nagar%20Vadhu%20Episode%202.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205706Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=70e37653467ed676372df6b10f4e7e9938cbd017427626b6e64299b80a82e279"
     },
     {
       "title": "Gup Chup NRI Client Episode 4",
@@ -1520,7 +1520,7 @@
       "duration": "14:00",
       "page_url": "https://hitmaal.net/gup-chup-nri-client-episode-4/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Gup%20Chup%20NRI%20Client/Gup%20Chup%20NRI%20Client%20E4.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195638Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d0acd06eb1fd6fdefae042d7ea934f6d094b027f4b56dd736561727e05d7706d"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Gup%20Chup%20NRI%20Client/Gup%20Chup%20NRI%20Client%20E4.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205644Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8afc3e0ad05e371c13f01e30bfaa913c16e7f03ea7cebe04e1f63788510cdd93"
     },
     {
       "title": "Mistake Episode 1",
@@ -1528,15 +1528,7 @@
       "duration": "28:00",
       "page_url": "https://hitmaal.net/mistake-episode-1/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Mistake%20%282023%29/Mistake%20%20S01E01%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195650Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=65111d3607081d754811181fb9bae0a1c2e61a0f697a3e7f9126724190a09c2b"
-    },
-    {
-      "title": "Good Luck Episode 8",
-      "upload_time": "3 Wk Ago",
-      "duration": "21:00",
-      "page_url": "https://hitmaal.net/good-luck-episode-8-2/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E8.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195426Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2c89e18a6a9d4c292edbc7517d53ac680a95b2ada0afe4962cf697bacc2b8146"
+      "stream_url": "https://video.maalcdn.com/Big%20Movie%20Zoo/Mistake%20%282023%29/Mistake%20%20S01E01%20%28XSeries.IN%29.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205653Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=58f765ac96787e533f489620d18459f5ab02ddcdb5c87bc63be40fa9237211c7"
     },
     {
       "title": "Good Luck Episode 9",
@@ -1544,7 +1536,15 @@
       "duration": "21:00",
       "page_url": "https://hitmaal.net/good-luck-episode-9-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E9.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195518Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ea64cf5c9e1b9e573dc7d40748b167c16caeb36f3aca3badcbe60333cddca3e5"
+      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E9.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205527Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=fbadb8a70bb2963357cb338fc918fd342bb2d519ff72e09891b6b53419e779b9"
+    },
+    {
+      "title": "Good Luck Episode 8",
+      "upload_time": "3 Wk Ago",
+      "duration": "21:00",
+      "page_url": "https://hitmaal.net/good-luck-episode-8-2/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E8.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205430Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d357c3d8ea340054dcebdcaaacf3166db02b097d29571ad9fc06b92f2d8f759b"
     },
     {
       "title": "Good Luck Episode 6",
@@ -1552,7 +1552,7 @@
       "duration": "19:00",
       "page_url": "https://hitmaal.net/good-luck-episode-6-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195434Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=da062b00c0bdf68e1840890cba274acca281f9ac4b01e21aed3cfa6449f7765d"
+      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205442Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7c01ac82834322b73f43b27475ceaa9fd39784d1207ed2caecf7d7f44d117fdc"
     },
     {
       "title": "Ghar Sasur Episode 7",
@@ -1560,7 +1560,7 @@
       "duration": "22:00",
       "page_url": "https://hitmaal.net/ghar-sasur-episode-7/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Ghar%20Sasur/Ghar%20Sasur%20E7.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195436Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9493399eaed6e8abf7bcbc620e31e3c9d366702194d4b9dfd39b881632f7d557"
+      "stream_url": "https://video.maalcdn.com/Besharams/Ghar%20Sasur/Ghar%20Sasur%20E7.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205442Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e3b4f18f2b0fd809758b9524ce1541f6cf935367a1f1f7461792b3cb67c1d7a6"
     },
     {
       "title": "Good Luck Episode 3",
@@ -1568,15 +1568,7 @@
       "duration": "35:00",
       "page_url": "https://hitmaal.net/good-luck-episode-3-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195354Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=60532dd26e91e7aa8a5d6cf424197a01c935c26b23d3bb9c3a41847c3563625b"
-    },
-    {
-      "title": "Ghar Sasur Episode 6",
-      "upload_time": "3 Wk Ago",
-      "duration": "40:00",
-      "page_url": "https://hitmaal.net/ghar-sasur-episode-6/",
-      "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Ghar%20Sasur/Ghar%20Sasur%20E6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195445Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c068ca477643712270d968589a76f08292e407c43a1b918455169b624d2e6762"
+      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205410Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=db8ff88efd6b15df794133bc6e72bf4a60a7b39f140b1240087fd859c46898b8"
     },
     {
       "title": "Good Luck Episode 5",
@@ -1584,7 +1576,15 @@
       "duration": "27:00",
       "page_url": "https://hitmaal.net/good-luck-episode-5-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195352Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b81b9527d388095a39ae3b36c67458e244d193e21232513d50839aeea1115a35"
+      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205402Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3c0131cfeae93cf5e2d1b71c657a60de1c48e8fcbd3b7b5cc0be1732767ed381"
+    },
+    {
+      "title": "Ghar Sasur Episode 6",
+      "upload_time": "3 Wk Ago",
+      "duration": "40:00",
+      "page_url": "https://hitmaal.net/ghar-sasur-episode-6/",
+      "stream_type": "mp4",
+      "stream_url": "https://video.maalcdn.com/Besharams/Ghar%20Sasur/Ghar%20Sasur%20E6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205446Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d6c107d837102c9537cd3c396c7d37fa9f5e1e2272b91ed501949430b413c21d"
     },
     {
       "title": "Ghar Sasur Episode 8",
@@ -1592,7 +1592,7 @@
       "duration": "19:00",
       "page_url": "https://hitmaal.net/ghar-sasur-episode-8/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Ghar%20Sasur/Ghar%20Sasur%20E8.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195503Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=48cd2806acdff6656d6d3e6db192c2e220b9da88aa6bd3129d91e27708976217"
+      "stream_url": "https://video.maalcdn.com/Besharams/Ghar%20Sasur/Ghar%20Sasur%20E8.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205509Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1fd37e2765f41af7631fb42c2c7d9b574789aff4588c718463115071c406c7b7"
     },
     {
       "title": "Good Luck Episode 2",
@@ -1600,7 +1600,7 @@
       "duration": "28:00",
       "page_url": "https://hitmaal.net/good-luck-episode-2-2/",
       "stream_type": "mp4",
-      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T195354Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=658a43302d295072c77a3e5fdd8a2b024a5487204bdf3bd85b4772f0fe5bcdcc"
+      "stream_url": "https://video.maalcdn.com/Besharams/Good%20Luck-C1/Good%20Luck%20E2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=809a68eb5f9a4d13e1b8b283b1fce3fe%2F20260320%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20260320T205403Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=94268c0ad692b5a15985e18062ecb454f9668a956a9882e320c08826eff7c2fb"
     }
   ]
 }
