@@ -95,6 +95,7 @@ const LIMIT = 200; // 👈 ONLY FETCH 200 VIDEOS
             upload_time: ep.upload_time,
             duration: ep.duration,
             page_url: ep.link,
+            thumbnail: ep.thumbnail || null, // ✅ Add thumbnail from source data
             stream_type: cleanStream.includes(".m3u8") ? "m3u8" : "mp4",
             stream_url: cleanStream // Full URL with all query parameters preserved
           });
@@ -118,7 +119,7 @@ const LIMIT = 200; // 👈 ONLY FETCH 200 VIDEOS
 
   await browser.close();
 
-  // 💾 Save output with full URLs
+  // 💾 Save output with full URLs and thumbnails
   fs.writeFileSync(
     OUTPUT,
     JSON.stringify(
