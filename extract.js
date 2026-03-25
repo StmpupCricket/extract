@@ -46,32 +46,65 @@ const LIMIT = 200; // 👈 ONLY FETCH 200 VIDEOS
         await page.goto(ep.link, { timeout: 30000 });
         await page.waitForTimeout(WAIT_TIME);
 
+        // 🔥 IMPROVED: Get ALL video sources including full URLs with query parameters
         const stream = await page.evaluate(() => {
+          // Method 1: Check video elements
+          const videoElement = document.querySelector("video");
+          if (videoElement && videoElement.src) {
+            return videoElement.src;
+          }
+          
+          // Method 2: Check source elements inside video
+          const sourceElement = document.querySelector("video source");
+          if (sourceElement && sourceElement.src) {
+            return sourceElement.src;
+          }
+          
+          // Method 3: Search HTML for video URLs (full pattern including query params)
           const html = document.documentElement.innerHTML;
-          return (
-            html.match(/https?:\/\/[^"' ]+\.m3u8[^"' ]*/)?.[0] ||
-            html.match(/https?:\/\/[^"' ]+\.mp4[^"' ]*/)?.[0] ||
-            document.querySelector("video")?.src ||
-            null
-          );
+          
+          // Match .m3u8 URLs with full query parameters
+          const m3u8Match = html.match(/https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/);
+          if (m3u8Match) return m3u8Match[0];
+          
+          // Match .mp4 URLs with full query parameters (including ? and everything after)
+          const mp4Match = html.match(/https?:\/\/[^\s"'<>]+\.mp4[^\s"'<>]*/);
+          if (mp4Match) return mp4Match[0];
+          
+          // Method 4: Check for URLs in iframes or embedded players
+          const allUrls = html.match(/https?:\/\/[^\s"'<>]+(?:\.m3u8|\.mp4)[^\s"'<>]*/g);
+          if (allUrls && allUrls.length > 0) return allUrls[0];
+          
+          // Method 5: Check data attributes or JavaScript variables
+          const scriptContent = Array.from(document.querySelectorAll("script"))
+            .map(script => script.textContent)
+            .join(" ");
+          
+          const scriptMatch = scriptContent.match(/(?:src|url|file|source)[\s]*:[\s]*["']([^"']+\.(?:m3u8|mp4)[^"']*)["']/i);
+          if (scriptMatch) return scriptMatch[1];
+          
+          return null;
         });
 
         if (stream) {
+          // Clean up the URL if needed (decode URI components)
+          const cleanStream = decodeURIComponent(stream);
+          
           results.push({
             title: ep.title,
             upload_time: ep.upload_time,
             duration: ep.duration,
             page_url: ep.link,
-            stream_type: stream.includes(".m3u8") ? "m3u8" : "mp4",
-            stream_url: stream
+            stream_type: cleanStream.includes(".m3u8") ? "m3u8" : "mp4",
+            stream_url: cleanStream // Full URL with all query parameters preserved
           });
 
-          console.log(`✅ Found (${id})`);
+          console.log(`✅ Found (${id}): ${cleanStream.substring(0, 100)}...`);
         } else {
-          console.log(`❌ No stream`);
+          console.log(`❌ No stream found for ${ep.title}`);
         }
       } catch (e) {
-        console.log(`⚠️ Error → ${ep.title}`);
+        console.log(`⚠️ Error → ${ep.title}: ${e.message}`);
       }
     }
 
@@ -85,7 +118,7 @@ const LIMIT = 200; // 👈 ONLY FETCH 200 VIDEOS
 
   await browser.close();
 
-  // 💾 Save output
+  // 💾 Save output with full URLs
   fs.writeFileSync(
     OUTPUT,
     JSON.stringify(
@@ -99,5 +132,5 @@ const LIMIT = 200; // 👈 ONLY FETCH 200 VIDEOS
     )
   );
 
-  console.log(`🎉 DONE → ${results.length} videos saved`);
+  console.log(`🎉 DONE → ${results.length} videos saved to ${OUTPUT}`);
 })();
