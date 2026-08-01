@@ -4,45 +4,49 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   extract:
     runs-on: ubuntu-latest
     
     steps:
-    - name: 🚀 Checkout repository
+    - name: Checkout repository
       uses: actions/checkout@v4
     
-    - name: 📦 Setup Node.js
+    - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '24'  # ✅ Updated to Node.js 24
+        node-version: '24'
         cache: 'npm'
     
-    - name: 🧹 Install system dependencies
+    - name: Install system dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y \
-          libnss3 libatk-bridge2.0-0 libdrm2 libxkbcommon0 \
-          libgbm1 libasound2 libx11-xcb1 libxcomposite1 \
-          libxdamage1 libxrandr2 libxss1 libxtst6 \
+          libnss3 \
+          libatk-bridge2.0-0 \
+          libdrm2 \
+          libxkbcommon0 \
+          libgbm1 \
+          libx11-xcb1 \
+          libxcomposite1 \
+          libxdamage1 \
+          libxrandr2 \
+          libxss1 \
+          libxtst6 \
           xvfb
     
-    - name: 📦 Install project dependencies
+    - name: Install project dependencies
       run: |
-        npm ci  # ✅ Uses package-lock.json
+        npm ci
         npx playwright install chromium
         npx playwright install-deps
     
-    - name: 🔍 Run extractor
+    - name: Run extractor
       run: node extract.js
       timeout-minutes: 5
     
-    - name: 📤 Upload results
+    - name: Upload results
       uses: actions/upload-artifact@v4
       with:
         name: extracted-urls
@@ -51,3 +55,32 @@ jobs:
           proxy-url.txt
           m3u8-url.txt
         retention-days: 30
+    
+    - name: Display results
+      if: always()
+      run: |
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "📊 EXTRACTION RESULTS"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        
+        if [ -f "m3u8.json" ]; then
+          echo ""
+          echo "✅ m3u8.json created"
+          
+          if [ -f "proxy-url.txt" ]; then
+            echo ""
+            echo "🎬 PROXY URL:"
+            cat proxy-url.txt
+          fi
+          
+          if [ -f "m3u8-url.txt" ]; then
+            echo ""
+            echo "📡 M3U8 URL:"
+            cat m3u8-url.txt
+          fi
+        else
+          echo "❌ No output files found"
+        fi
+        
+        echo ""
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
