@@ -18,29 +18,7 @@ const OUTPUT_FILE = "m3u8.json";
         '--disable-dev-shm-usage',
         '--disable-gpu',
         '--disable-web-security',
-        '--disable-features=IsolateOrigins,site-per-process',
-        '--disable-accelerated-2d-canvas',
-        '--disable-accelerated-jpeg-decoding',
-        '--disable-accelerated-mjpeg-decode',
-        '--disable-accelerated-video-decode',
-        '--disable-background-timer-throttling',
-        '--disable-backgrounding-occluded-windows',
-        '--disable-breakpad',
-        '--disable-component-extensions-with-background-pages',
-        '--disable-extensions',
-        '--disable-infobars',
-        '--disable-ipc-flooding-protection',
-        '--disable-popup-blocking',
-        '--disable-prompt-on-repost',
-        '--disable-renderer-backgrounding',
-        '--disable-sync',
-        '--force-color-profile=srgb',
-        '--metrics-recording-only',
-        '--no-first-run',
-        '--password-store=basic',
-        '--use-mock-keychain',
-        '--disable-hang-monitor',
-        '--disable-default-apps'
+        '--disable-features=IsolateOrigins,site-per-process'
       ]
     });
     
@@ -49,19 +27,13 @@ const OUTPUT_FILE = "m3u8.json";
       extraHTTPHeaders: {
         'Referer': 'https://peachify.top/',
         'Accept': '*/*',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'cross-site'
+        'Accept-Language': 'en-US,en;q=0.9'
       },
       viewport: { width: 1280, height: 720 }
     });
 
     const page = await context.newPage();
     
-    // Store captured URLs
     const capturedUrls = [];
     let proxyUrl = null;
     let m3u8Url = null;
@@ -70,104 +42,71 @@ const OUTPUT_FILE = "m3u8.json";
     await page.route('**/*', (route) => {
       const url = route.request().url();
       
-      // Look for worker.dev and mp4-proxy URLs
       if (url.includes('workers.dev') && url.includes('mp4-proxy')) {
         console.log(`✅ PROXY URL FOUND:`);
         console.log(`📡 ${url}\n`);
         proxyUrl = url;
-        capturedUrls.push({
-          url: url,
-          type: 'proxy',
-          timestamp: new Date().toISOString()
-        });
+        capturedUrls.push({ url, type: 'proxy', timestamp: new Date().toISOString() });
       }
       
-      // Look for m3u8 URLs
       if (url.includes('.m3u8')) {
         console.log(`📡 M3U8: ${url.substring(0, 100)}...`);
         m3u8Url = url;
-        capturedUrls.push({
-          url: url,
-          type: 'm3u8',
-          timestamp: new Date().toISOString()
-        });
+        capturedUrls.push({ url, type: 'm3u8', timestamp: new Date().toISOString() });
       }
       
-      // Look for mp4 URLs
       if (url.includes('.mp4')) {
         console.log(`📡 MP4: ${url.substring(0, 100)}...`);
-        capturedUrls.push({
-          url: url,
-          type: 'mp4',
-          timestamp: new Date().toISOString()
-        });
+        capturedUrls.push({ url, type: 'mp4', timestamp: new Date().toISOString() });
       }
       
       route.continue();
     });
 
     console.log(`🌐 Loading page...`);
-    await page.goto(TARGET_URL, { 
-      timeout: 60000, 
-      waitUntil: 'domcontentloaded' 
-    });
+    await page.goto(TARGET_URL, { timeout: 60000, waitUntil: 'domcontentloaded' });
 
     console.log(`⏳ Waiting for video to load...`);
     await page.waitForTimeout(5000);
     
-    // Try to trigger video loading
+    // Try to trigger video
     try {
-      await page.click('video, .video-player, button[aria-label*="play"], .play-button, .vjs-big-play-button');
-      console.log(`🎮 Clicked play button`);
+      await page.click('video, .play-button, button[aria-label*="play"]');
+      console.log(`🎮 Clicked play`);
       await page.waitForTimeout(5000);
     } catch (e) {
       console.log(`ℹ️ No play button found`);
     }
 
-    // Scroll to load lazy content
+    // Scroll to load content
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
     await page.waitForTimeout(3000);
 
-    // Extract URLs from page source
+    // Extract from page source
     const pageData = await page.evaluate(() => {
       const urls = [];
       const html = document.documentElement.innerHTML;
       
-      // Find worker.dev URLs
-      const workerMatch = html.match(/https?:\/\/[a-zA-Z0-9-]+\.workers\.dev\/[^\s"'<>]*/g);
-      if (workerMatch) {
-        workerMatch.forEach(url => urls.push({ url, source: 'page' }));
-      }
+      const patterns = [
+        /https?:\/\/[a-zA-Z0-9-]+\.workers\.dev\/[^\s"'<>]*/g,
+        /https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/g,
+        /https?:\/\/[^\s"'<>]+\.mp4[^\s"'<>]*/g
+      ];
       
-      // Find mp4-proxy URLs
-      const proxyMatch = html.match(/https?:\/\/[a-zA-Z0-9-]+\.workers\.dev\/mp4-proxy[^\s"'<>]*/g);
-      if (proxyMatch) {
-        proxyMatch.forEach(url => urls.push({ url, source: 'page' }));
-      }
-      
-      // Find m3u8 URLs
-      const m3u8Match = html.match(/https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/g);
-      if (m3u8Match) {
-        m3u8Match.forEach(url => urls.push({ url, source: 'page' }));
-      }
-      
-      // Find any video URLs
-      const videoMatch = html.match(/https?:\/\/[^\s"'<>]+\.(?:mp4|ts|m4s)[^\s"'<>]*/g);
-      if (videoMatch) {
-        videoMatch.forEach(url => urls.push({ url, source: 'page' }));
-      }
+      patterns.forEach(pattern => {
+        const matches = html.match(pattern);
+        if (matches) {
+          matches.forEach(url => urls.push(url));
+        }
+      });
       
       return urls;
     });
 
-    // Add page data to captured URLs
-    pageData.forEach(item => {
-      if (!capturedUrls.some(c => c.url === item.url)) {
-        capturedUrls.push({
-          url: item.url,
-          type: 'page_source',
-          timestamp: new Date().toISOString()
-        });
+    // Add page data
+    pageData.forEach(url => {
+      if (!capturedUrls.some(c => c.url === url)) {
+        capturedUrls.push({ url, type: 'page_source', timestamp: new Date().toISOString() });
       }
     });
 
@@ -185,7 +124,6 @@ const OUTPUT_FILE = "m3u8.json";
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2));
 
-    // Save proxy URL separately
     if (proxyUrl) {
       fs.writeFileSync('proxy-url.txt', proxyUrl);
       console.log(`💾 Proxy URL saved to: proxy-url.txt`);
@@ -196,15 +134,13 @@ const OUTPUT_FILE = "m3u8.json";
       console.log(`💾 M3U8 URL saved to: m3u8-url.txt`);
     }
 
-    // Display summary
     console.log(`\n📊 Summary:`);
     console.log(`   Total URLs captured: ${capturedUrls.length}`);
     console.log(`   Proxy URL: ${proxyUrl ? '✅ Found' : '❌ Not found'}`);
     console.log(`   M3U8 URL: ${m3u8Url ? '✅ Found' : '❌ Not found'}`);
 
     if (proxyUrl) {
-      console.log(`\n🎬 PROXY URL:`);
-      console.log(`   ${proxyUrl}`);
+      console.log(`\n🎬 PROXY URL:\n   ${proxyUrl}`);
     }
 
     console.log(`\n💾 Full data saved to: ${OUTPUT_FILE}`);
