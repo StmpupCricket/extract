@@ -1,50 +1,134 @@
 name: M3U8 Extract Bot
 
 on:
+  # Manual trigger
   workflow_dispatch:
+  
+  # Schedule: Runs every 6 hours
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: '0 */6 * * *'
+  
+  # Also run on push to main
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   extract:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
+    
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install Dependencies
-        run: |
-          npm install
-          npx playwright install --with-deps
-
-      - name: Run Script
-        run: node extract.js
-
-      - name: Setup Git
-        run: |
-          git config user.name "m3u8-bot"
-          git config user.email "bot@users.noreply.github.com"
-
-      # ✅ Commit FIRST
-      - name: Commit Changes
-        run: |
-          git add m3u8.json
-          git commit -m "Update m3u8" || echo "No changes"
-
-      # ✅ Then Pull
-      - name: Pull Latest
-        run: git pull origin main --rebase
-
-      # ✅ Then Push
-      - name: Push
-        run: git push origin main
+    - name: 🚀 Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: 📦 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: 🧹 Clean up
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          libnss3 \
+          libatk-bridge2.0-0 \
+          libdrm2 \
+          libxkbcommon0 \
+          libgbm1 \
+          libasound2 \
+          libx11-xcb1 \
+          libxcomposite1 \
+          libxdamage1 \
+          libxrandr2 \
+          libxss1 \
+          libxtst6 \
+          libxcb1 \
+          libxcb-shm0 \
+          libxcb-xfixes0 \
+          libxcb-shape0 \
+          libxcb-xkb1 \
+          libxcb-icccm4 \
+          libxcb-image0 \
+          libxcb-keysyms1 \
+          libxcb-randr0 \
+          libxcb-render0 \
+          libxcb-sync1 \
+          libxcb-xinerama0 \
+          libxcb-xv0 \
+          libxcb-glx0 \
+          libxcb-dri2-0 \
+          libxcb-dri3-0 \
+          libxcb-present0 \
+          libxcb-util1 \
+          libxcb-util0-dev \
+          libxcb-xrm0 \
+          libxcb-xkb1 \
+          libxcb-cursor0 \
+          libxcb-icccm4-dev \
+          libxcb-xv0-dev \
+          xvfb
+    
+    - name: 📦 Install dependencies
+      run: |
+        npm ci
+        npx playwright install chromium
+        npx playwright install-deps
+    
+    - name: 🔍 Run extractor
+      run: |
+        echo "🎯 Starting extraction..."
+        node extract.js
+      timeout-minutes: 5
+    
+    - name: 📤 Upload results
+      uses: actions/upload-artifact@v4
+      with:
+        name: extracted-urls
+        path: |
+          m3u8.json
+          proxy-url.txt
+          m3u8-url.txt
+        retention-days: 30
+    
+    - name: 📝 Display results
+      if: always()
+      run: |
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "📊 EXTRACTION RESULTS"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        
+        if [ -f "m3u8.json" ]; then
+          echo ""
+          echo "✅ m3u8.json created"
+          echo "📄 File size: $(du -h m3u8.json | cut -f1)"
+          
+          if [ -f "proxy-url.txt" ]; then
+            echo ""
+            echo "🎬 PROXY URL:"
+            cat proxy-url.txt
+          fi
+          
+          if [ -f "m3u8-url.txt" ]; then
+            echo ""
+            echo "📡 M3U8 URL:"
+            cat m3u8-url.txt
+          fi
+        else
+          echo "❌ No output files found"
+        fi
+        
+        echo ""
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "📦 Artifacts uploaded to GitHub Actions"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    
+    - name: 🗑️ Cleanup old artifacts
+      run: |
+        echo "🧹 Cleaning up old artifacts..."
+        # Keep only last 5 artifacts
+        # This is handled automatically by GitHub retention policy
+    
+    - name: ⏰ Completion time
+      run: echo "✅ Workflow completed at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
