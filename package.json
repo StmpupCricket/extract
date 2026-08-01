@@ -1,8 +1,14 @@
 {
-  "name": "m3u8-extractor",
-  "private": true,
+  "name": "video-url-extractor",
+  "version": "1.0.0",
+  "description": "Extract video URLs from peachify.top",
+  "main": "extract.js",
   "type": "module",
+  "scripts": {
+    "start": "node extract.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "playwright": "^1.42.0"
+    "playwright": "^1.40.0"
   }
 }
