@@ -5,8 +5,7 @@
   "main": "extract.js",
   "type": "module",
   "scripts": {
-    "start": "node extract.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node extract.js"
   },
   "dependencies": {
     "playwright": "^1.40.0"
