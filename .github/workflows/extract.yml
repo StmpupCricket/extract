@@ -1,14 +1,9 @@
 name: M3U8 Extract Bot
 
 on:
-  # Manual trigger
   workflow_dispatch:
-  
-  # Schedule: Runs every 6 hours
   schedule:
     - cron: '0 */6 * * *'
-  
-  # Also run on push to main
   push:
     branches: [ main ]
   pull_request:
@@ -25,61 +20,26 @@ jobs:
     - name: 📦 Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '24'  # ✅ Updated to Node.js 24
         cache: 'npm'
     
-    - name: 🧹 Clean up
+    - name: 🧹 Install system dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y \
-          libnss3 \
-          libatk-bridge2.0-0 \
-          libdrm2 \
-          libxkbcommon0 \
-          libgbm1 \
-          libasound2 \
-          libx11-xcb1 \
-          libxcomposite1 \
-          libxdamage1 \
-          libxrandr2 \
-          libxss1 \
-          libxtst6 \
-          libxcb1 \
-          libxcb-shm0 \
-          libxcb-xfixes0 \
-          libxcb-shape0 \
-          libxcb-xkb1 \
-          libxcb-icccm4 \
-          libxcb-image0 \
-          libxcb-keysyms1 \
-          libxcb-randr0 \
-          libxcb-render0 \
-          libxcb-sync1 \
-          libxcb-xinerama0 \
-          libxcb-xv0 \
-          libxcb-glx0 \
-          libxcb-dri2-0 \
-          libxcb-dri3-0 \
-          libxcb-present0 \
-          libxcb-util1 \
-          libxcb-util0-dev \
-          libxcb-xrm0 \
-          libxcb-xkb1 \
-          libxcb-cursor0 \
-          libxcb-icccm4-dev \
-          libxcb-xv0-dev \
+          libnss3 libatk-bridge2.0-0 libdrm2 libxkbcommon0 \
+          libgbm1 libasound2 libx11-xcb1 libxcomposite1 \
+          libxdamage1 libxrandr2 libxss1 libxtst6 \
           xvfb
     
-    - name: 📦 Install dependencies
+    - name: 📦 Install project dependencies
       run: |
-        npm ci
+        npm ci  # ✅ Uses package-lock.json
         npx playwright install chromium
         npx playwright install-deps
     
     - name: 🔍 Run extractor
-      run: |
-        echo "🎯 Starting extraction..."
-        node extract.js
+      run: node extract.js
       timeout-minutes: 5
     
     - name: 📤 Upload results
@@ -91,44 +51,3 @@ jobs:
           proxy-url.txt
           m3u8-url.txt
         retention-days: 30
-    
-    - name: 📝 Display results
-      if: always()
-      run: |
-        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-        echo "📊 EXTRACTION RESULTS"
-        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-        
-        if [ -f "m3u8.json" ]; then
-          echo ""
-          echo "✅ m3u8.json created"
-          echo "📄 File size: $(du -h m3u8.json | cut -f1)"
-          
-          if [ -f "proxy-url.txt" ]; then
-            echo ""
-            echo "🎬 PROXY URL:"
-            cat proxy-url.txt
-          fi
-          
-          if [ -f "m3u8-url.txt" ]; then
-            echo ""
-            echo "📡 M3U8 URL:"
-            cat m3u8-url.txt
-          fi
-        else
-          echo "❌ No output files found"
-        fi
-        
-        echo ""
-        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-        echo "📦 Artifacts uploaded to GitHub Actions"
-        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-    
-    - name: 🗑️ Cleanup old artifacts
-      run: |
-        echo "🧹 Cleaning up old artifacts..."
-        # Keep only last 5 artifacts
-        # This is handled automatically by GitHub retention policy
-    
-    - name: ⏰ Completion time
-      run: echo "✅ Workflow completed at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
