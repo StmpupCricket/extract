@@ -1,28 +1,17 @@
 import { chromium } from "playwright";
 import fs from "fs";
 
-const SOURCE_JSON =
-  "https://raw.githubusercontent.com/cricstreamz745/Hit-Maal/refs/heads/main/hitmall.json";
-
+// 🔥 SINGLE URL TO EXTRACT
+const TARGET_URL = "https://peachify.top/embed/movie/1081003?accent=7c5cff&dub=Hindi&quality=1080"; // 👈 CHANGE THIS
 const OUTPUT = "m3u8.json";
 
-/* 🔥 SPEED CONFIG */
-const MAX_WORKERS = 8;
-const WAIT_TIME = 3500;
-const LIMIT = 200; // 👈 ONLY FETCH 200 VIDEOS
-
 (async () => {
-  const data = await (await fetch(SOURCE_JSON)).json();
-
-  // ✅ TAKE ONLY FIRST 200
-  const episodes = data.episodes.slice(0, LIMIT);
-
-  console.log(`🎯 Fetching only ${episodes.length} videos`);
+  console.log(`🎯 Extracting from single URL: ${TARGET_URL}`);
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
 
-  // 🚫 Block heavy resources
+  // 🚫 Block heavy resources for speed
   await context.route("**/*", route => {
     const type = route.request().resourceType();
     if (["image", "font", "stylesheet"].includes(type)) {
@@ -32,106 +21,193 @@ const LIMIT = 200; // 👈 ONLY FETCH 200 VIDEOS
     }
   });
 
-  let index = 0;
+  const page = await context.newPage();
   const results = [];
 
-  async function worker(id) {
-    const page = await context.newPage();
+  try {
+    console.log(`🌐 Navigating to page...`);
+    await page.goto(TARGET_URL, { timeout: 60000, waitUntil: "networkidle" });
+    
+    // Wait for content to load
+    await page.waitForTimeout(5000);
+    
+    // Get page title
+    const pageTitle = await page.title();
+    
+    console.log(`📄 Page title: ${pageTitle}`);
 
-    while (index < episodes.length) {
-      const ep = episodes[index++];
-      console.log(`👷 Worker ${id} → ${ep.title}`);
-
-      try {
-        await page.goto(ep.link, { timeout: 30000 });
-        await page.waitForTimeout(WAIT_TIME);
-
-        // 🔥 IMPROVED: Get ALL video sources including full URLs with query parameters
-        const stream = await page.evaluate(() => {
-          // Method 1: Check video elements
-          const videoElement = document.querySelector("video");
-          if (videoElement && videoElement.src) {
-            return videoElement.src;
-          }
-          
-          // Method 2: Check source elements inside video
-          const sourceElement = document.querySelector("video source");
-          if (sourceElement && sourceElement.src) {
-            return sourceElement.src;
-          }
-          
-          // Method 3: Search HTML for video URLs (full pattern including query params)
-          const html = document.documentElement.innerHTML;
-          
-          // Match .m3u8 URLs with full query parameters
-          const m3u8Match = html.match(/https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/);
-          if (m3u8Match) return m3u8Match[0];
-          
-          // Match .mp4 URLs with full query parameters (including ? and everything after)
-          const mp4Match = html.match(/https?:\/\/[^\s"'<>]+\.mp4[^\s"'<>]*/);
-          if (mp4Match) return mp4Match[0];
-          
-          // Method 4: Check for URLs in iframes or embedded players
-          const allUrls = html.match(/https?:\/\/[^\s"'<>]+(?:\.m3u8|\.mp4)[^\s"'<>]*/g);
-          if (allUrls && allUrls.length > 0) return allUrls[0];
-          
-          // Method 5: Check data attributes or JavaScript variables
-          const scriptContent = Array.from(document.querySelectorAll("script"))
-            .map(script => script.textContent)
-            .join(" ");
-          
-          const scriptMatch = scriptContent.match(/(?:src|url|file|source)[\s]*:[\s]*["']([^"']+\.(?:m3u8|mp4)[^"']*)["']/i);
-          if (scriptMatch) return scriptMatch[1];
-          
-          return null;
-        });
-
-        if (stream) {
-          // Clean up the URL if needed (decode URI components)
-          const cleanStream = decodeURIComponent(stream);
-          
-          results.push({
-            title: ep.title,
-            upload_time: ep.upload_time,
-            duration: ep.duration,
-            page_url: ep.link,
-            thumbnail: ep.thumbnail || null, // ✅ Add thumbnail from source data
-            stream_type: cleanStream.includes(".m3u8") ? "m3u8" : "mp4",
-            stream_url: cleanStream // Full URL with all query parameters preserved
+    // 🔥 Extract video URLs using multiple methods
+    const videoData = await page.evaluate(() => {
+      const videos = [];
+      
+      // Method 1: Check all video elements
+      document.querySelectorAll("video").forEach(video => {
+        if (video.src) {
+          videos.push({
+            type: "video_element",
+            url: video.src,
+            element: "video"
           });
-
-          console.log(`✅ Found (${id}): ${cleanStream.substring(0, 100)}...`);
-        } else {
-          console.log(`❌ No stream found for ${ep.title}`);
         }
-      } catch (e) {
-        console.log(`⚠️ Error → ${ep.title}: ${e.message}`);
+      });
+      
+      // Method 2: Check source elements
+      document.querySelectorAll("video source, source").forEach(source => {
+        if (source.src) {
+          videos.push({
+            type: "source_element",
+            url: source.src,
+            element: "source"
+          });
+        }
+      });
+      
+      // Method 3: Search full HTML for m3u8 URLs with query params
+      const html = document.documentElement.innerHTML;
+      const m3u8Matches = html.match(/https?:\/\/[^\s"'<>]+\.m3u8[^\s"'<>]*/g);
+      if (m3u8Matches) {
+        m3u8Matches.forEach(url => {
+          videos.push({
+            type: "m3u8_html",
+            url: url,
+            element: "html"
+          });
+        });
       }
+      
+      // Method 4: Search for mp4 URLs
+      const mp4Matches = html.match(/https?:\/\/[^\s"'<>]+\.mp4[^\s"'<>]*/g);
+      if (mp4Matches) {
+        mp4Matches.forEach(url => {
+          videos.push({
+            type: "mp4_html",
+            url: url,
+            element: "html"
+          });
+        });
+      }
+      
+      // Method 5: Check script tags for video URLs
+      const scripts = Array.from(document.querySelectorAll("script"));
+      scripts.forEach(script => {
+        const content = script.textContent;
+        // Look for URLs in JavaScript objects/strings
+        const urlMatches = content.match(/(?:src|url|file|source|video|stream)[\s]*[:=][\s]*["']([^"']+\.(?:m3u8|mp4)[^"']*)["']/gi);
+        if (urlMatches) {
+          urlMatches.forEach(match => {
+            const urlMatch = match.match(/["']([^"']+\.(?:m3u8|mp4)[^"']*)["']/);
+            if (urlMatch) {
+              videos.push({
+                type: "script",
+                url: urlMatch[1],
+                element: "script"
+              });
+            }
+          });
+        }
+      });
+      
+      // Method 6: Check iframe src attributes
+      document.querySelectorAll("iframe").forEach(iframe => {
+        if (iframe.src && (iframe.src.includes(".m3u8") || iframe.src.includes(".mp4"))) {
+          videos.push({
+            type: "iframe",
+            url: iframe.src,
+            element: "iframe"
+          });
+        }
+      });
+      
+      // Method 7: Check for data attributes
+      document.querySelectorAll("[data-src], [data-video], [data-url]").forEach(el => {
+        const attr = el.getAttribute("data-src") || el.getAttribute("data-video") || el.getAttribute("data-url");
+        if (attr && (attr.includes(".m3u8") || attr.includes(".mp4"))) {
+          videos.push({
+            type: "data_attribute",
+            url: attr,
+            element: "data"
+          });
+        }
+      });
+      
+      return videos;
+    });
+
+    // Remove duplicates (keep first occurrence)
+    const uniqueVideos = [];
+    const seenUrls = new Set();
+    
+    videoData.forEach(item => {
+      if (!seenUrls.has(item.url)) {
+        seenUrls.add(item.url);
+        uniqueVideos.push(item);
+      }
+    });
+
+    // Process and save results
+    if (uniqueVideos.length > 0) {
+      console.log(`🎬 Found ${uniqueVideos.length} video streams:`);
+      
+      uniqueVideos.forEach((video, index) => {
+        const cleanUrl = decodeURIComponent(video.url);
+        const isM3U8 = cleanUrl.includes(".m3u8");
+        const isMP4 = cleanUrl.includes(".mp4");
+        
+        console.log(`  ${index + 1}. [${video.type}] ${cleanUrl.substring(0, 100)}...`);
+        
+        results.push({
+          found_at: new Date().toISOString(),
+          page_url: TARGET_URL,
+          page_title: pageTitle,
+          source_type: video.type,
+          stream_type: isM3U8 ? "m3u8" : isMP4 ? "mp4" : "unknown",
+          stream_url: cleanUrl,
+          full_url: video.url // Keep original
+        });
+      });
+    } else {
+      console.log("❌ No video streams found on this page");
     }
 
+  } catch (error) {
+    console.error(`❌ Error loading page: ${error.message}`);
+  } finally {
     await page.close();
+    await browser.close();
   }
 
-  // 🔥 Run workers
-  await Promise.all(
-    Array.from({ length: MAX_WORKERS }, (_, i) => worker(i + 1))
-  );
-
-  await browser.close();
-
-  // 💾 Save output with full URLs and thumbnails
-  fs.writeFileSync(
-    OUTPUT,
-    JSON.stringify(
-      {
-        created_at: new Date().toISOString(),
-        total: results.length,
-        videos: results
-      },
-      null,
-      2
-    )
-  );
-
-  console.log(`🎉 DONE → ${results.length} videos saved to ${OUTPUT}`);
+  // 💾 Save output
+  if (results.length > 0) {
+    fs.writeFileSync(
+      OUTPUT,
+      JSON.stringify(
+        {
+          created_at: new Date().toISOString(),
+          target_url: TARGET_URL,
+          total_found: results.length,
+          videos: results
+        },
+        null,
+        2
+      )
+    );
+    console.log(`🎉 DONE → ${results.length} videos saved to ${OUTPUT}`);
+  } else {
+    console.log("💡 No videos found to save");
+    // Create empty result file
+    fs.writeFileSync(
+      OUTPUT,
+      JSON.stringify(
+        {
+          created_at: new Date().toISOString(),
+          target_url: TARGET_URL,
+          total_found: 0,
+          videos: [],
+          message: "No video streams found on this page"
+        },
+        null,
+        2
+      )
+    );
+  }
 })();
